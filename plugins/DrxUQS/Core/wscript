@@ -1,0 +1,27 @@
+#############################################################################
+## Dinrus Source File
+## Copyright (C) 2013, Dinrus Studios
+##
+## Creator: Christian Werle
+## Date: Jan 06, 2016
+## Описание: WAF  based build system
+#############################################################################
+
+def build(bld):
+
+	bld.DinrusXModule(
+		target        = 'DrxUQS_Core',
+		vs_filter     = 'DrxPlugins/DrxUQS',
+		file_list     = 'uqs_core.waf_files',
+		pch           = 'core/StdAfx.cpp',
+		includes      = [ '.' ],
+		use_module    = [ 'DrxUQS_Client', 
+			'DrxUQS_DataSource_XML', 
+			'DrxUQS_StdLib',
+			'DrxUQS_Interfaces'
+			],
+
+		module_provides = dict(
+			includes = [ Path('Code/DrxPlugins')],
+		),
+	)

@@ -1,0 +1,17 @@
+# Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+
+def build(bld) :
+
+	bld.DinrusXModule(
+	  target = 'DrxOculusVR',
+	  vs_filter = 'DrxPlugins',
+	  file_list = 'cryoculusvr.waf_files',
+
+	  pch = 'StdAfx.cpp',
+	  
+	  includes  = Path('Code/SDKs/OculusSDK/LibOVR/Include'),
+	  
+	  win_use_module = [ 'oculus' ]
+	  )
+
+	  

@@ -1,0 +1,13 @@
+file
+	DinrusXFont.h,
+	FBitmap.h,
+	FFont.h,
+	FontRenderer.h,
+	FontTexture.h,
+	GlyphBitmap.h,
+	GlyphCache.h,
+	IFont.h,
+	NullFont.h,
+	resource.h,
+	StdAfx.h;
+

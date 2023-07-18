@@ -1,0 +1,24 @@
+noblitz;
+
+uses
+	DinrusX/DinrusXFont;
+
+link(WIN32) "-lkernel32 -lntdll -lDinrusX.dll";
+
+file
+	DinrusXFont.rc,
+	DrxFont.cpp,
+	FFont.cpp,
+	FFontXML.cpp,
+	FontRenderer.cpp,
+	FontTexture.cpp,
+	GlyphBitmap.cpp,
+	GlyphCache.cpp,
+	IDrxFont.cpp,
+	NullFont.cpp,
+	StdAfx.cpp;
+
+mainconfig
+	"" = "SHARED",
+	"DinrusXFont.dll" = "DLL";
+

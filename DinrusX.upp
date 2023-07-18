@@ -1,0 +1,26 @@
+description "Ключевая библиотека сборки DinrusX (игровой движок на основе CryEngine)\377";
+
+noblitz;
+
+uses
+	DinrusX/3rdParty/BigDigits,
+	DinrusX/3rdParty/concqueue,
+	DinrusX/3rdParty/TangentBasisComputation/mikkelsen,
+	DinrusX/3rdParty/tomcrypt,
+	plugin/FT_fontsys,
+	DinrusX/3rdParty/md5,
+	DinrusX/CoreX,
+	Core;
+
+options(WIN32) ;
+
+link(WIN32) ;
+
+file
+	code\DinrusX\xxhash.c,
+	StdAfx.h;
+
+mainconfig
+	"" = "SHARED",
+	"DinrusX.dll" = "DLL";
+

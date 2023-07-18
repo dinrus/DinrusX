@@ -1,0 +1,6 @@
+// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+
+#include <DinrusX/DinrusXNetwork/StdAfx.h>
+#include  <DinrusX/DinrusXNetwork/RangedUnsignedIntPolicy.h>
+
+REGISTER_COMPRESSION_POLICY(CRangedUnsignedIntPolicy, "RangedUnsignedInt");

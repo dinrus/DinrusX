@@ -1,0 +1,23 @@
+#############################################################################
+## Dinrus Source File
+## Copyright (C) 2014, Dinrus Studios
+##
+## Creator: Pavlo Ilin
+## Date: Novemver 19, 2015
+## Описание: WAF  based build system
+#############################################################################
+def build(bld):
+	bld.DrxPlugin(
+		target = 'EditorUQS',
+		vs_filter = 'DrxPlugins/DrxUQS',
+		file_list = 'editorplugin.waf_files',
+		pch = 'StdAfx.cpp',
+		features = 'qt',
+		includes = [ 
+			'.', 
+			'..', 
+			'GeneratedFiles', 
+			Path('Code/GameUQS')],
+		use = [ 'Editor', 'EditorCommon' ],
+		use_module    = [ 'DrxUQS_Interfaces', 'DrxUQS_Shared', 'DrxUQS_DataSource_XML' ]
+	)
