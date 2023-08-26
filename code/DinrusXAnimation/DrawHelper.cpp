@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXAnimation/stdafx.h>
 #include <DinrusX/DinrusXAnimation/DrawHelper.h>

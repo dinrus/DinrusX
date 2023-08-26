@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // The internal representation of a hazardous sphere area within the hazard system.
 

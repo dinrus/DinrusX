@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusX3dEng/StdAfx.h>
 #include <DinrusX/DinrusX3dEng/FogVolumeRenderNode.h>
 #include <DinrusX/DinrusX3dEng/VisAreas.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREFogVolume.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREFogVolume.h>
 #include <DinrusX/CoreX/Math/Drx_Geo.h>
 #include <DinrusX/DinrusX3dEng/ObjMan.h>
 #include <DinrusX/DinrusX3dEng/ClipVolumeUpr.h>

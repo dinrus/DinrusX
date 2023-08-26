@@ -1,15 +1,15 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
-#include "StdAfx.h"
-#include "ReflectionRegistry.h"
+#include <DinrusX/DinrusXReflection/StdAfx.h>
+#include <DinrusX/DinrusXReflection/ReflectionRegistry.h>
 
 #include <DinrusX/DinrusXReflection/SystemTypeRegistry.h>
 
 #include <DinrusX/CoreX/Platform/platform_impl.inl>
 
-#include "ReflectedTypeDesc.h"
-#include "ReflectedFunctionDesc.h"
-#include "ReflectedVariableDesc.h"
+#include <DinrusX/DinrusXReflection/ReflectedTypeDesc.h>
+#include <DinrusX/DinrusXReflection/ReflectedFunctionDesc.h>
+#include <DinrusX/DinrusXReflection/ReflectedVariableDesc.h>
 
 namespace Drx {
 namespace Reflection {

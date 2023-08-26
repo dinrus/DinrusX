@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXFont/StdAfx.h>
 // Included only once per DLL module.
@@ -45,7 +45,7 @@ class CEngineModule_DrxFont : public IFontEngineModule
 		DRXINTERFACE_ADD(IFontEngineModule)
 	DRXINTERFACE_END()
 
-	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DrxFont, "EngineModule_DrxFont", "6758643f-4321-4957-9b92-0d898d31f434"_drx_guid)
+	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DrxFont, "EngineModule_DinrusXFont", "6758643f-4321-4957-9b92-0d898d31f434"_drx_guid)
 
 	virtual ~CEngineModule_DrxFont()
 	{

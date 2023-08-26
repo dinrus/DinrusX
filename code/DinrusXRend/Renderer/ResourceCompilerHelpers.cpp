@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 
-#include <Core/ToolsHelpers/ResourceCompilerHelper.inl>
-#include <Core/ToolsHelpers/SettingsUprHelpers.inl>
-#include <Core/ToolsHelpers/EngineSettingsUpr.inl>
+#include <DinrusX/CoreX/ToolsHelpers/ResourceCompilerHelper.inl>
+#include <DinrusX/CoreX/ToolsHelpers/SettingsUprHelpers.inl>
+#include <DinrusX/CoreX/ToolsHelpers/EngineSettingsUpr.inl>

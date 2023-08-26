@@ -6,7 +6,7 @@
 //  File name:   cfgfile.h
 //  Version:     v1.00
 //  Created:     4/11/2002 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: 
 // -------------------------------------------------------------------------
 //  History: 03/14/2003 MM added save support

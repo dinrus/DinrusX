@@ -7,7 +7,7 @@
 #include <DinrusX/DinrusX3dEng/ParticleMemory.h>
 #include <DinrusX/DinrusX3dEng/ParticleEnviron.h>
 #include <DinrusX/DinrusX3dEng/ParticleUtils.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREParticle.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREParticle.h>
 
 
 class CParticleContainer;

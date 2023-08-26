@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    D3DOcclQuery.cpp : Occlusion queries unified interface implementation

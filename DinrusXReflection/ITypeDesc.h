@@ -4,10 +4,10 @@
 
 #include <DinrusX/CoreX/Extension/DrxGUID.h>
 
-#include "IReflection.h"
-#include "IDescExtension.h"
-#include "IFunctionDesc.h"
-#include "IVariableDesc.h"
+#include <DinrusX/DinrusXReflection/IReflection.h>
+#include <DinrusX/DinrusXReflection/IDescExtension.h>
+#include <DinrusX/DinrusXReflection/IFunctionDesc.h>
+#include <DinrusX/DinrusXReflection/IVariableDesc.h>
 
 namespace Drx {
 namespace Reflection {

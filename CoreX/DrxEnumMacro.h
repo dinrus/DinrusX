@@ -1,10 +1,11 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
 #include <type_traits>
 
-// Note: This macro can only be used for enums outside of classes and structs!
+// Примечание: Этот макрос используется только в отношении перечней,
+// расположенных вне классов и структур!
 #define DRX_CREATE_ENUM_FLAG_OPERATORS(ENUM)                                 \
   constexpr std::underlying_type<ENUM>::type IntegralValue(ENUM const t)     \
   {                                                                          \

@@ -12,8 +12,8 @@
 
 #define _LAUNCHER
 
-#include <DinrusX/CoreX/Project/CryModuleDefs.h>
-#define eCryModule eCryM_Launcher
+#include <DinrusX/CoreX/Project/DrxModuleDefs.h>
+#define eDrxModule eDrxM_Launcher
 
 // Insert your headers here
 #include <DinrusX/CoreX/Platform/platform.h>
@@ -23,7 +23,7 @@
 
 // enable memory pool usage
 #define USE_NEWPOOL
-#include <CryMemory/CryMemoryUpr.h>
+#include <DinrusX/CoreX/Memory/CryMemoryUpr.h>
 
 //{{AFX_INSERT_LOCATION}}
 // Microsoft Visual C++ will insert additional declarations immediately before the previous line.

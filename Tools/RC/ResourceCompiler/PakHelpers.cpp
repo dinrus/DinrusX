@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "stdafx.h"
 #include "PakHelpers.h"
 
 #include "PathHelpers.h"
 #include "StringHelpers.h"
-#include <Core/String/StringUtils.h>
-#include <Core/String/DrxPath.h>
+#include <DinrusX/CoreX/String/StringUtils.h>
+#include <DinrusX/CoreX/String/DrxPath.h>
 #include "FileUtil.h"
 #include "IRCLog.h"
 

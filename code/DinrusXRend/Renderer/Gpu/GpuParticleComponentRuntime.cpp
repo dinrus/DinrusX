@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/GpuParticleComponentRuntime.h>
@@ -8,7 +8,7 @@
 
 #include <DinrusX/DinrusXRend/D3DRender/Gpu/Physics/GpuPhysicsParticleFluid.h>
 
-#include <Core/BitFiddling.h>
+#include <DinrusX/CoreX/BitFiddling.h>
 
 namespace gpu_pfx2
 {

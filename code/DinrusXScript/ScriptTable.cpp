@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXScript/StdAfx.h>
 #include <DinrusX/DinrusXScript/ScriptTable.h>
@@ -40,7 +40,7 @@ void* CScriptTable::GetUserDataValue()
 void CScriptTable::PushRef()
 {
 	if (m_nRef != DELETED_REF && m_nRef != NULL_REF)
-		lua_getref(L, m_nRef);
+		luaL_ref(L, m_nRef);
 	else
 	{
 		lua_pushnil(L);
@@ -62,7 +62,7 @@ void CScriptTable::PushRef(IScriptTable* pObj)
 {
 	int nRef = ((CScriptTable*)pObj)->m_nRef;
 	if (nRef != DELETED_REF)
-		lua_getref(L, nRef);
+		luaL_ref(L, nRef);
 	else
 		DrxFatalError("Access to deleted script object");
 }
@@ -71,8 +71,8 @@ void CScriptTable::PushRef(IScriptTable* pObj)
 void CScriptTable::Attach()
 {
 	if (m_nRef != NULL_REF)
-		lua_unref(L, m_nRef);
-	m_nRef = lua_ref(L, 1);
+		luaL_unref(L, 0, m_nRef);
+	m_nRef = luaL_ref(L, 1);
 
 #ifdef DEBUG_LUA_STATE
 	gAllScriptTables.insert(this);
@@ -100,7 +100,7 @@ void CScriptTable::DeleteThis()
 #endif
 
 	if (m_nRef != NULL_REF)
-		lua_unref(L, m_nRef);
+		luaL_unref(L, 0, m_nRef);
 
 	m_nRef = DELETED_REF;
 	delete this;

@@ -1,14 +1,14 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusX/DinrusX3dEng/IIndexedMesh.h>
 #include <DinrusX/DinrusX3dEng/CGF/CGFContent.h>
-#include <Core/Math/GeomQuery.h>
+#include <DinrusX/CoreX/Math/GeomQuery.h>
 #include <DinrusX/DinrusXRend/RenderMesh.h>
 #include <DinrusX/DinrusXRend/PostProcess/PostEffects.h>
 #include <DinrusX/DinrusXRend/ComputeSkinningStorage.h>
-#include <Core/Math/QTangent.h>
+#include <DinrusX/CoreX/Math/QTangent.h>
 #include <DinrusX/CoreX/Thread/IJobUpr_JobDelegator.h>
 
 #include <DinrusX/DinrusXRend/D3DRender/DriverD3D.h>

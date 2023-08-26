@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // #SchematycTODO : Replace DRX_ASSERT with SCHEMATYC2_SYSTEM_ASSERT.
 

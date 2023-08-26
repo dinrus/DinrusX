@@ -7,7 +7,7 @@
 
 // Includes
 #include <DinrusX/DinrusXGame/Effects/GameEffectsSystem.h>
-#include <DrxRenderer/RenderElements/CREGameEffect.h>
+#include <DrxRenderer/RendElements/CREGameEffect.h>
 
 // Forward declares
 struct IGameRenderElementParams;

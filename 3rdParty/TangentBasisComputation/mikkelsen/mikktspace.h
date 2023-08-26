@@ -1,5 +1,5 @@
 /**
- *  Copyright (C) 2011 by Morten S. Mikkelsen
+ *  Разработка (C) 2011 by Morten S. Mikkelsen
  *
  *  This software is provided 'as-is', without any express or implied
  *  warranty.  In no event will the authors be held liable for any damages

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 // Legacy SecondGen features, replaced with Child features
 
 #include <DinrusX/DinrusX3dEng/StdAfx.h>

@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/D3DColorGradingController.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 #include <DinrusX/DinrusXRend/D3DPostProcess.h>
-#include <Core/String/StringUtils.h>
+#include <DinrusX/CoreX/String/StringUtils.h>
 #include <DinrusX/DinrusXRend/D3DRender/GraphicsPipeline/ColorGrading.h>
 
 const int COLORCHART_SIZE = 16;

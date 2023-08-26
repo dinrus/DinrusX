@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    D3DCGPShader.h : Direct3D9 CG pixel shaders interface declaration.
@@ -12,7 +12,7 @@
 #define __D3DHWSHADER_H__
 
 #include <DinrusX/DinrusXRend/Shaders/ShaderComponents.h>                 // SCGBind, SCGParam, etc.
-#include <DinrusX/DinrusXRend/D3DRender/DeviceUpr/D3D11/DeviceSubmissionQueue_D3D11.h> // CSubmissionQueue_DX11
+#include <DinrusX/DinrusXRend/D3DRender/DeviceUpr/DeviceSubmissionQueue_D3D11.h> // CSubmissionQueue_DX11
 
 #if DRX_PLATFORM_ORBIS && defined(USE_SCUE)
 //#define USE_PER_FRAME_CONSTANT_BUFFER_UPDATES // TODO: Restore this

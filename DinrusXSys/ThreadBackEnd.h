@@ -4,7 +4,7 @@
 //  File name:   ThreadBackEnd.h
 //  Version:     v1.00
 //  Created:     07/05/2011 by Christopher Bolte
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 // -------------------------------------------------------------------------
 //  History:
 ////////////////////////////////////////////////////////////////////////////

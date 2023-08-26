@@ -1,6 +1,6 @@
 #pragma once
 
-<DinrusX/DinrusXSys/IDrxPlugin.h>
+#include <DinrusX/DinrusXSys/IDrxPlugin.h>
 
 #ifdef DELETE
 #undef DELETE

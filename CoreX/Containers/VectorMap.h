@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   VectorMap.h
@@ -65,7 +65,7 @@ public:
 
 	typedef T                                           key_compare;
 
-	class FirstLess : public std::binary_function<value_type, value_type, bool>
+	class FirstLess : public std::__binary_function<value_type, value_type, bool>
 	{
 	public:
 		FirstLess(const key_compare& comp) : m_comp(comp) {}

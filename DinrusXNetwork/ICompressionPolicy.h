@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef __ICOMPRESSIONPOLICY_H__
 #define __ICOMPRESSIONPOLICY_H__

@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 // Dinrus Engine Source File.
-// Copyright (C), Dinrus Studios, 2001-2006.
+// Разработка (C), Dinrus Studios, 2001-2006.
 // -------------------------------------------------------------------------
 // File name: TrackStorage.h
 // Version: v1.00

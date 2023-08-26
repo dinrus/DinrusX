@@ -4,7 +4,7 @@
 //  File name:   DeferredCollisionEvent.h
 //  Version:     v1.00
 //  Created:     12/08/2010 by Christopher Bolte
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 // -------------------------------------------------------------------------
 //  History:
 ////////////////////////////////////////////////////////////////////////////

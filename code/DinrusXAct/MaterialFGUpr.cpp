@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   MaterialFGUpr
 //  Version:     v1.00
 //  Created:     29/11/2006 by AlexL-Benito GR
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

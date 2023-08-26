@@ -4,7 +4,7 @@
 //  File name:   visareas.h
 //  Version:     v1.00
 //  Created:     18/12/2002 by Vladimir Kajalin
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: visibility areas header
 // -------------------------------------------------------------------------
 //  History:

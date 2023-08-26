@@ -4,7 +4,7 @@
 //  File name:   ParticleUtils.h
 //  Version:     v1.00
 //  Created:     11/03/2010 by Corey (split out from other files).
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Splitting out some of the particle specific containers to here.
 //							 Will be moved to a proper home eventually.
 // -------------------------------------------------------------------------

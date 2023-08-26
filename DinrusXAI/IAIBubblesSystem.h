@@ -4,7 +4,7 @@
 //  File name:   IAIBubblesSystem.h
 //  Version:     v1.00
 //  Created:     30/7/2009 by Ivo Frey
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Bubbles System interface
 // -------------------------------------------------------------------------
 //  History:

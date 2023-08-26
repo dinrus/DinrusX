@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   NetworkInspector.h
 //  Version:     v1.00
 //  Created:     19/12/2005 by Jan Müller
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64 2003
 //  Описание: The NetworkInspector gets messages from the network.
 //							Once per frame the messages are automatically sorted and
 //							rendered on the screen including their size and target address.

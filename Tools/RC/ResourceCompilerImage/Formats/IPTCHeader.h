@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 #ifndef __IPTCHEADER_H__
 #define __IPTCHEADER_H__
 
@@ -17,7 +17,7 @@ public:
 		FieldState                          = 0x5F,
 		FieldCountry                        = 0x65,
 		FieldOriginalTransmissionReference  = 0x67,
-		FieldCopyrightNotice                = 0x74,
+		FieldРазработкаNotice                = 0x74,
 		FieldCaption                        = 0x78,
 		FieldCaptionWriter                  = 0x7A,
 		FieldHeadline                       = 0x69,

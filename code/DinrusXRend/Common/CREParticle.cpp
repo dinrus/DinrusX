@@ -1,13 +1,13 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREParticle.h>
-#include <Core/Containers/HeapContainer.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREParticle.h>
+#include <DinrusX/CoreX/Containers/HeapContainer.h>
 #include <DinrusX/DinrusXRend/ParticleBuffer.h>
 
 #include <iterator>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
-#include <Core/ParticleSys/IParticles.h>
+#include <DinrusX/CoreX/ParticleSys/IParticles.h>
 #include <DinrusX/CoreX/Thread/IJobUpr_JobDelegator.h>
 #include <DinrusX/DinrusXRend/RenderView.h>
 #include <DinrusX/DinrusXRend/CompiledRenderObject.h>

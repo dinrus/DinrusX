@@ -1,13 +1,7 @@
-// Microsoft Visual C++ generated resource script.
-//
+
 #include "resource.h"
 
-#define APSTUDIO_READONLY_SYMBOLS
-/////////////////////////////////////////////////////////////////////////////
-//
-// Generated from the TEXTINCLUDE 2 resource.
-//
-#include "winres.h"
+#include <winres.h>
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -17,7 +11,7 @@
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
 LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
-#pragma code_page(1252)
+#pragma code_page(1251)
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -68,10 +62,10 @@ BEGIN
     BEGIN
         BLOCK "000904b0"
         BEGIN
-            VALUE "CompanyName", "Crytek GmbH"
+            VALUE "CompanyName", "DinrusPro"
             VALUE "FileVersion", "1.0.0.1"
 			VALUE "FileDescription", "DRXENGINE SDK"
-            VALUE "LegalCopyright", "(c) 2014 Crytek GmbH"
+            VALUE "LegalCopyright", "(c) 2014 DinrusPro"
             VALUE "ProductName", "DRXENGINE SDK"
             VALUE "ProductVersion", "1.0.0.1"
         END

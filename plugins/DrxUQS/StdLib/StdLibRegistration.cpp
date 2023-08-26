@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"  // the actual location would be "stdlib/StdAfx.h", but for win64_no_uber builds, we added "stdlib" as an include path to make it happy
 #include "StdLibRegistration.h"

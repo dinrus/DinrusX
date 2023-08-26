@@ -8,7 +8,7 @@
 #include <DinrusX/CoreX/Extension/DrxGUID.h>
 #include <DinrusX/CoreX/String/DrxString.h>
 
-#include "DescExtension.h"
+#include <DinrusX/DinrusXReflection/DescExtension.h>
 
 namespace Drx {
 namespace Reflection {

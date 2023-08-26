@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 // Dinrus Engine Source File.
-// Copyright (C), Dinrus Studios, 2001-2006.
+// Разработка (C), Dinrus Studios, 2001-2006.
 // -------------------------------------------------------------------------
 // File name: AnimationInfoLoader.h
 // Version: v1.00
@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include <DinrusXAnimation/DrxCharAnimationParams.h>
+#include <DinrusX/DinrusXAnimation/DrxCharAnimationParams.h>
 #include "GlobalAnimationHeader.h"
 #include "Controller.h"
 #include "AnimationInfoLoader.h"
@@ -32,7 +32,7 @@
 #include "ConvertContext.h"
 #include <DinrusXSys/DrxVersion.h>
 #include "CompressionController.h"
-#include <Core/DrxCrc32.h>
+#include <DinrusX/CoreX/DrxCrc32.h>
 #include "Util.h"
 
 //#define PRINTOUT (1)

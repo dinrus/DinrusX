@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXSchema2/StdAfxBaseEnv.h>
 #include <DinrusX/DinrusXSchema2/BaseEnv_EntityParticleEmitterComponent.h>
@@ -7,7 +7,7 @@
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusX/CoreX/ParticleSys/IParticles.h>
 #include <DinrusX/CoreX/Renderer/IRenderAuxGeom.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREOcclusionQuery.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREOcclusionQuery.h>
 
 #include <DinrusX/DinrusXSchema2/BaseEnv_AutoRegistrar.h>
 #include <DinrusX/DinrusXSchema2/BaseEnv_EntitySignals.h>

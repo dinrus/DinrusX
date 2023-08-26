@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef __CET_ENTITYSYSTEM_H__
 #define __CET_ENTITYSYSTEM_H__

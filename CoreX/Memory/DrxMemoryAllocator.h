@@ -1,13 +1,13 @@
 /*
  * Part of this code coming from STLPort alloc
  *
- * Copyright (c) 1996,1997
+ * Разработка (c) 1996,1997
  * Silicon Graphics Computer Systems, Inc.
  *
- * Copyright (c) 1997
+ * Разработка (c) 1997
  * Moscow Center for SPARC Technology
  *
- * Copyright (c) 1999
+ * Разработка (c) 1999
  * Boris Fomitchev
  *
  *

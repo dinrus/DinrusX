@@ -4,7 +4,7 @@
 //  File name:   DrxName.h
 //  Version:     v1.00
 //  Created:     Craig Tiller.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Handles locomotion/physics integration for objects
 // -------------------------------------------------------------------------
 //  History:

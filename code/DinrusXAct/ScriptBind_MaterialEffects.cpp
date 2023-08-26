@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   ScriptBind_MaterialEffects.cpp
 //  Version:     v1.00
 //  Created:     03/22/2007 by MichaelR
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: MaterialEffects ScriptBind. MaterialEffects should be used
 //               from C++ if possible. Use this ScriptBind for legacy stuff.
 // -------------------------------------------------------------------------

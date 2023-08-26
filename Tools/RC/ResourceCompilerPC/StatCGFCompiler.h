@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef STAT_CGF_COMPILER
 #define STAT_CGF_COMPILER
 
-#include <Core/Math/Drx_Color.h>
+#include <DinrusX/CoreX/Math/Drx_Color.h>
 #include "SingleThreadedConverter.h"
 #include "../../DinrusX/DinrusX3dEng/MeshCompiler/MeshCompiler.h"
 

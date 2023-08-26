@@ -3,10 +3,10 @@
 #pragma once
 
 #include "GlyphBitmap.h"
-#include <plugin/FT_fontsys/ft2build.h>
-#include <plugin/FT_fontsys/freetype.h>
+#include <plugin/freetype/ft2build.h>
+#include <plugin/freetype/freetype.h>
 
-// Corresponds to the Unicode character set. This value covers all versions of the Unicode repertoire,
+// Соответствует набору символов Unicode. This value covers all versions of the Unicode repertoire,
 // including ASCII and Latin-1. Most fonts include a Unicode charmap, but not all of them.
 #define FONT_ENCODING_UNICODE (FT_ENCODING_UNICODE)
 

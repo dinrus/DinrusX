@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    DDSImage.cpp : DDS image file format implementation.
@@ -13,9 +13,9 @@
 #include <DinrusX/DinrusXRend/Textures/CImage.h>
 #include <DinrusX/DinrusXRend/Textures/DDSImage.h>
 #include <DinrusX/DinrusX3dEng/ImageExtensionHelper.h>                                           // CImageExtensionHelper
-#include <Core/TypeInfo_impl.h>
+#include <DinrusX/CoreX/TypeInfo_impl.h>
 #include <DinrusX/DinrusX3dEng/ImageExtensionHelper_info.h>
-#include <Core/String/StringUtils.h>                // stristr()
+#include <DinrusX/CoreX/String/StringUtils.h>                // stristr()
 #include <DinrusXSys/ILog.h>
 #include <DinrusX/DinrusXRend/TextureHelpers.h>
 

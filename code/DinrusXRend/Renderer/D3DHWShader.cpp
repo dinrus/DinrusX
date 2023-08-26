@@ -1,14 +1,14 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
-#include <Core/DrxCrc32.h>
+#include <DinrusX/CoreX/DrxCrc32.h>
 #include <DinrusX/DinrusXRend/Shaders/RemoteCompiler.h>
 #include <DinrusX/DinrusXRend/PostProcess/PostEffects.h>
 #include <DinrusX/DinrusXRend/D3DPostProcess.h>
 
-#include <Core/ParticleSys/IParticles.h>
+#include <DinrusX/CoreX/ParticleSys/IParticles.h>
 #include <DinrusX/DinrusXRend/Textures/TextureHelpers.h>
 #include <DinrusX/DinrusXRend/Include_HLSL_CPP_Shared.h>
 #include <DinrusX/DinrusXRend/TypedConstantBuffer.h>

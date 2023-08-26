@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 
 // Included only once per DLL module.
-#include <Core/Platform/platform_impl.inl>
+#include <DinrusX/CoreX/Platform/platform_impl.inl>
 
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
@@ -11,7 +11,7 @@
 #include <DinrusXSys/Profilers/IStatoscope.h>
 
 #include <DinrusXSys/IEngineModule.h>
-#include <Core/Extension/ClassWeaver.h>
+#include <DinrusX/CoreX/Extension/ClassWeaver.h>
 
 #include <DinrusX/DinrusXRend/Textures/TextureUpr.h>
 #include <DinrusX/DinrusXRend/Textures/TextureStreamPool.h>
@@ -35,7 +35,7 @@
 #include <DinrusX/DinrusXRend/D3DRender/Gpu/Particles/GpuParticleUpr.h>
 
 #include <DinrusX/DinrusXRend/RenderDisplayContext.h>
-#include <DinrusX/DinrusXRend/D3DRender/DeviceUpr/D3D11/DeviceObjects_D3D11.h>
+#include <DinrusX/DinrusXRend/D3DRender/DeviceUpr/DeviceObjects_D3D11.h>
 
 #if defined(FEATURE_SVO_GI)
 	#include <DinrusX/DinrusXRend/D3D_SVO.h>
@@ -5339,14 +5339,14 @@ class CEngineModule_DrxRenderer : public IRendererEngineModule
 		DRXINTERFACE_ADD(IRendererEngineModule)
 	DRXINTERFACE_END()
 
-	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DrxRenderer, "EngineModule_DrxRenderer", "540c91a7-338e-41d3-acee-ac9d55614450"_drx_guid)
+	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DrxRenderer, "EngineModule_DinrusXRend", "540c91a7-338e-41d3-acee-ac9d55614450"_drx_guid)
 
 	virtual ~CEngineModule_DrxRenderer() 
 	{
 		SAFE_RELEASE(gEnv->pRenderer);
 	}
 
-	virtual const char* GetName() const override     { return "DrxRenderer"; }
+	virtual const char* GetName() const override     { return "DinrusXRend"; }
 	virtual const char* GetCategory() const override { return "DinrusX"; }
 
 	virtual bool        Initialize(SSystemGlobalEnvironment& env, const SSystemInitParams& initParams) override

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
@@ -88,7 +88,7 @@ public:
 
 private:
 
-	struct LessStrCmpi : std::binary_function<const char*, const char*, bool>
+	struct LessStrCmpi : std::__binary_function<const char*, const char*, bool>
 	{
 		bool operator()(const char* l, const char* r) const { return strcmpi(l, r) < 0; }
 	};

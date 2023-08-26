@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   drx3dengine.cpp
 //  Version:     v1.00
 //  Created:     28/5/2001 by Vladimir Kajalin
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:    Определяет точку входа в DLL, реализует доступ к другим модулям.
 // -------------------------------------------------------------------------
 //  History:

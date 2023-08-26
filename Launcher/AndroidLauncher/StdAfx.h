@@ -4,8 +4,8 @@
 
 #define _LAUNCHER  // should be defined in launcher, because launcher has to have every symbols in platform_impl.inl
 
-#include <DinrusX/CoreX/Project/CryModuleDefs.h>
-#define eCryModule eCryM_Launcher
+#include <DinrusX/CoreX/Project/DrxModuleDefs.h>
+#define eDrxModule eDrxM_Launcher
 
 #include <DinrusX/CoreX/Platform/platform.h>
 //#include <algorithm>

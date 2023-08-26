@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*
    Convert SCE PSN Matching2 request, signaling and room responses into an internal format that we can pass between threads.

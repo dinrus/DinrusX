@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
@@ -8,7 +8,7 @@
 #include <vector>
 
 #include <assert.h>
-#include <Core/String/DrxString.h>
+#include <DinrusX/CoreX/String/DrxString.h>
 
 class CImageProperties;
 class ImageObject;

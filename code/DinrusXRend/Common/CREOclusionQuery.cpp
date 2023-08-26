@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/RendElement.h>
+#include <DinrusX/CoreX/Renderer/RendElements/RendElement.h>
 #include <DinrusX/DinrusXRend/D3DRender/DriverD3D.h>
 
 

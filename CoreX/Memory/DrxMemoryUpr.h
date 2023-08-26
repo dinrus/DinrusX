@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   DrxMemoryUpr.h
@@ -570,7 +570,7 @@ DRXMM_INLINE void* DrxModuleReallocAlign(void* memblock, size_t size, size_t ali
 		//const size_t oldSize = memblock ? _msize(memblock) : 0;
 		const size_t oldSize = size;
 		// memalign is deprecated but not all platforms have aligned_alloc()...
-		void* alignedAlloc = memalign(alignment, size);
+		void* alignedAlloc = _aligned_malloc(size, alignment);
 		if (alignedAlloc && oldSize > 0)
 		{
 			// We copy from the unaligned re-allocation rather than original memblock to ensure we
@@ -592,11 +592,7 @@ DRXMM_INLINE void* DrxModuleReallocAlign(void* memblock, size_t size, size_t ali
 DRXMM_INLINE void* DrxModuleMemalign(size_t size, size_t alignment) noexcept
 {
 	MEMREPLAY_SCOPE(EMemReplayAllocClass::C_UserPointer, EMemReplayUserPointerClass::C_DrxMalloc);
-	#if defined(__GNUC__) && !DRX_PLATFORM_APPLE
-	void* ret = memalign(alignment, size);
-	#else
 	void* ret = _aligned_malloc(size, alignment);
-	#endif
 	MEMREPLAY_SCOPE_ALLOC(ret, size, alignment);
 	return ret;
 }

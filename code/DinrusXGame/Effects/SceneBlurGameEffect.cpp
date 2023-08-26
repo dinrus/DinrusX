@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // Manages effects for scene blur - The effect needs to be managed in 1 global place to stop
 // different game features fighting over setting the values.

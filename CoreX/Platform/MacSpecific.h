@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   MacSpecific.h
 //  Version:     v1.00
 //  Created:     Mathieu Pinard based on the LinuxSpecifc files
-//  Compilers:   Visual Studio.NET, GCC
+//  Компиляторы:   mingw-w64-clang-x86_64, GCC
 //  Описание: Mac declarations
 // -------------------------------------------------------------------------
 //  History:

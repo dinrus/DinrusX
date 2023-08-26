@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // #TODO : Would it be possible to support different depth, width and height resolutions? Alternatively we could just create an equivalent CQuadtreePlotter class.
 

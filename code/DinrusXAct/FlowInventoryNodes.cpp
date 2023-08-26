@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   FlowInventoryNodes.cpp
 //  Version:     v1.00
 //  Created:     July 11th 2005 by Julien.
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64 2003
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

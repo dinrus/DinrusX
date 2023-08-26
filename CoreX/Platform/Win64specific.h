@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   Win32specific.h
 //  Version:     v1.00
 //  Created:     31/03/2003 by Sergiy.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Specific to Win32 declarations, inline functions etc.
 // -------------------------------------------------------------------------
 //  History:

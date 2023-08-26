@@ -4,7 +4,7 @@
 //  File name:   FlowFilters.h
 //  Version:     v1.00
 //  Created:     27/03/2006 by AlexL
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Some Inspector filters
 // -------------------------------------------------------------------------
 //  History:

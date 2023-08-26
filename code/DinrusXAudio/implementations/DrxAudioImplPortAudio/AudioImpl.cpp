@@ -1,15 +1,15 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
-#include <DinrusX/DinrusXAudio/StdAfx.h>
-#include <DinrusX/DinrusXAudio/AudioImpl.h>
-#include <DinrusX/DinrusXAudio/Common.h>
-#include <DinrusX/DinrusXAudio/AudioTrigger.h>
-#include <DinrusX/DinrusXAudio/AudioEvent.h>
-#include <DinrusX/DinrusXAudio/AudioObject.h>
-#include <DinrusX/DinrusXAudio/AudioImplCVars.h>
-#include <DinrusX/DinrusXAudio/ATLEntities.h>
-#include <DinrusX/DinrusXAudio/GlobalData.h>
-#include <Logger.h>
+#include "stdafx.h"
+#include "AudioImpl.h"
+#include "Common.h"
+#include "AudioTrigger.h"
+#include "AudioEvent.h"
+#include "AudioObject.h"
+#include "AudioImplCVars.h"
+#include "ATLEntities.h"
+#include "GlobalData.h"
+#include <DinrusX/DinrusXAudio/Logger.h>
 #include <sndfile.hh>
 #include <DinrusX/DinrusXSys/IDrxPak.h>
 #include <DinrusX/DinrusXSys/IProjectUpr.h>
@@ -217,7 +217,7 @@ void CImpl::GetInfo(SImplInfo& implInfo) const
 ///////////////////////////////////////////////////////////////////////////
 IObject* CImpl::ConstructGlobalObject()
 {
-	return new CObject();
+	return static_cast<IObject*> (new CObject());
 }
 
 ///////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@
 //  File name:   timedemorecorder.h
 //  Version:     v1.00
 //  Created:     2/8/2003 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

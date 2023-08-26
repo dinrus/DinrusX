@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   VisAreaCompile.cpp
 //  Version:     v1.00
 //  Created:     28/4/2005 by Vladimir Kajalin
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:    Загрузка/сохранение узла видимой области.
 // -------------------------------------------------------------------------
 //  History:

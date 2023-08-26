@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
-#include <DinrusX/DinrusXAudio/StdAfx.h>
-#include <DinrusX/DinrusXAudio/AudioEvent.h>
-#include <DinrusX/DinrusXAudio/AudioObject.h>
-#include <Logger.h>
+#include "stdafx.h"
+#include "AudioEvent.h"
+#include "AudioObject.h"
+#include <DinrusX/DinrusXAudio/Logger.h>
 #include <DinrusX/CoreX/Audio/IAudioSystem.h>
 #include <DinrusX/DinrusXSys/ISystem.h> // needed for gEnv in Release builds
-#include <portaudio.h>
+#include <DinrusX/3rdParty/portaudio/portaudio.h>
 #include <sndfile.hh>
 
 namespace DrxAudio

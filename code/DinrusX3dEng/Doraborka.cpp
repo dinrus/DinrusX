@@ -52,32 +52,32 @@ override,
  /////
    uint      CParticleEmitter::GetParticleSpec() const{ return 0;}
    void      CParticleEmitter::UpdateEmitGeomFromEntity(){}
-   QuatTS    CParticleEmitter::GetEmitterGeometryLocation() const{}
+   QuatTS    CParticleEmitter::GetEmitterGeometryLocation() const{};//return ;}//QuatTS(0.f, 0.f, 0.f);}
    void      CParticleEmitter::SyncUpdateParticles(){}
     bool      CParticleEmitter::UpdateParticles(){}
 
 /////
   void CParticleRenderBase::AddToComponent(pfx2::CParticleComponent*, pfx2::SComponentParams*){}
-  EFeatureType CParticleRenderBase::GetFeatureType(){}
+  EFeatureType CParticleRenderBase::GetFeatureType(){return EFeatureType::EFT_Generic ; }
   float CParticleRenderBase::CullArea(float area,
                  float areaLimit, TParticleIdArray& ids, TVarArray<float> alphas,
-                                                             TConstArray<float> areas){}
+                                                             TConstArray<float> areas){ return 0; }
                                                              /////
 	//string                    CParticleEffect::GetShortName() const;
 	int                       CParticleEffect::GetEditVersion() const{ return 0; }
-	CParticleComponent*       CParticleEffect::FindComponentByName(const char* name) const{}
-	string                    CParticleEffect::MakeUniqueName(const CParticleComponent* forComponent, const char* name){}
+	CParticleComponent*       CParticleEffect::FindComponentByName(const char* name) const{return nullptr;}
+	string                    CParticleEffect::MakeUniqueName(const CParticleComponent* forComponent, const char* name){return "";}
  /*
 Также отсутствуют:
 	
-pfx2::CParticleContainer::CParticleContainer()
-pfx2::CParticleContainer::~CParticleContainer()
-pfx2::CParticleContainer::ResetUsedData()
-pfx2::CParticleContainer::AddParticleData(DynamicEnum<pfx2::SDataInfo, unsigned int, pfx2::SDataInfo>)
-pfx2::CParticleContainer::Trim()
-pfx2::CParticleContainer::ResetSpawnedParticles()
-pfx2::CParticleContainer::RemoveParticles(Array<unsigned int, unsigned int, NArray::Storage>, Array<unsigned int, unsigned int, NArray::Storage>)
-pfx2::CParticleContainer::AddParticles(Array<pfx2::SSpawnEntry const, unsigned int, NArray::Storage>)
+CParticleContainer::CParticleContainer()
+CParticleContainer::~CParticleContainer()
+CParticleContainer::ResetUsedData()
+CParticleContainer::AddParticleData(DynamicEnum<pfx2::SDataInfo, unsigned int, pfx2::SDataInfo>)
+CParticleContainer::Trim()
+CParticleContainer::ResetSpawnedParticles()
+CParticleContainer::RemoveParticles(Array<unsigned int, unsigned int, NArray::Storage>, Array<unsigned int, unsigned int, NArray::Storage>)
+CParticleContainer::AddParticles(Array<pfx2::SSpawnEntry const, unsigned int, NArray::Storage>)
 ParticleList<_smart_ptr<IStatObj>>::m_pHead
 ParticleList<_smart_ptr<IStatObj>>::m_pTail
 ParticleList<EmitParticleData>::m_pHead

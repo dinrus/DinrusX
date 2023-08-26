@@ -4,7 +4,7 @@
 //  File name:   terrain_water.h
 //  Version:     v1.00
 //  Created:     28/5/2001 by Vladimir Kajalin
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

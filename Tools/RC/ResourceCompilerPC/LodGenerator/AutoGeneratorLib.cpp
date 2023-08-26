@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 /*************************************************************************
 Dinrus Source File.
-Copyright (C), Dinrus Studios, 2014.
+Разработка (C), Dinrus Studios, 2014.
 *************************************************************************/
 
 #include "StdAfx.h"

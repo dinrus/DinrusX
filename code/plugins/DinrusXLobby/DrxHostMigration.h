@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #if !defined(__DRXHOSTMIGRATION_H__)
 #define __DRXHOSTMIGRATION_H__

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    ShaderCache.cpp : implementation of the Shaders cache management.
@@ -11,7 +11,7 @@
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusX/DinrusXRend/RemoteCompiler.h>
-#include <Core/Base64.h>
+#include <DinrusX/CoreX/Base64.h>
 
 bool SShaderCombIdent::operator==(const SShaderCombIdent& other) const
 {

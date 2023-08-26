@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   MFXRandomEffect.h
 //  Version:     v1.00
 //  Created:     28/11/2006 by JohnN/AlexL
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Random effect (randomly plays one of its child effects)
 // -------------------------------------------------------------------------
 //  History:

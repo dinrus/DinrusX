@@ -5,7 +5,7 @@
 #include <DinrusX/DinrusXSchema2/BaseEnv_Prerequisites.h>
 
 #include <DinrusX/DinrusX3dEng/I3DEngine.h> // Must be included before CREOcclusionQuery.h.
-#include <DinrusX/CoreX/Renderer/RenderElements/CREOcclusionQuery.h> // Must be included before IEntityRenderState.h.
+#include <DinrusX/CoreX/Renderer/RendElements/CREOcclusionQuery.h> // Must be included before IEntityRenderState.h.
 
 namespace SchematycBaseEnv
 {

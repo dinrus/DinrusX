@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    RenderThread.cpp: Render thread commands processing.
@@ -15,8 +15,8 @@
 #include <DinrusX/DinrusXRend/RenderAuxGeom.h>
 #include <DinrusX/DinrusXRend/IColorGradingControllerInt.h>
 #include <DinrusXSys/Profilers/IStatoscope.h>
-#include <Core/Game/IGameFramework.h>
-#include <DinrusXAnimation/IDrxAnimation.h>
+#include <DinrusX/CoreX/Game/IGameFramework.h>
+#include <DinrusX/DinrusXAnimation/IDrxAnimation.h>
 #include <DinrusX/DinrusXRend/PostProcess/PostEffects.h>
 #include <DinrusX/CoreX/Thread/IThreadUpr.h>
 

@@ -1,11 +1,11 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // ResourceCompilerImage.cpp : Defines the entry point for the DLL application.
 //
 
 #include "stdafx.h"
 
-#include <Core/Assert/DrxAssert_impl.h>
+#include <DinrusX/CoreX/Assert/DrxAssert_impl.h>
 #pragma comment(lib, "comctl32.lib")
 #pragma comment(lib, "comdlg32.lib")
 

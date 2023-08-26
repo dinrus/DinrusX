@@ -11,10 +11,10 @@
 #include "InspectorPanel.h"
 #include "AudioSystemPanel.h"
 #include <DockTitleBarWidget.h>
-#include <DinrusX/DinrusXSys/File/CryFile.h>
-#include <DinrusX/DinrusXSys/ISystem.h>
+#include <CrySystem/File/CryFile.h>
+#include <CrySystem/ISystem.h>
 #include <CryString/CryPath.h>
-#include "ImplementationUpr.h"
+#include "ImplementationManager.h"
 #include "QtUtil.h"
 
 // File watching
@@ -98,7 +98,7 @@ CAudioControlsEditorWindow::CAudioControlsEditorWindow()
 		  });
 		connect(m_pATLControlsPanel, &CATLControlsPanel::SelectedControlChanged, this, &CAudioControlsEditorWindow::UpdateFilterFromSelection);
 		connect(m_pATLControlsPanel, &CATLControlsPanel::ControlTypeFiltered, this, &CAudioControlsEditorWindow::FilterControlType);
-		connect(CAudioControlsEditorPlugin::GetImplementationManger(), &CImplementationUpr::ImplementationChanged, this, &CAudioControlsEditorWindow::Update);
+		connect(CAudioControlsEditorPlugin::GetImplementationManger(), &CImplementationManager::ImplementationChanged, this, &CAudioControlsEditorWindow::Update);
 		connect(m_pAudioSystemPanel, &CAudioSystemPanel::ImplementationSettingsChanged, this, &CAudioControlsEditorWindow::Update);
 
 		GetIEditor()->RegisterNotifyListener(this);
@@ -283,7 +283,7 @@ void CAudioControlsEditorWindow::Save()
 				sLevelName = NULL;
 			}
 
-			SAudioUprRequestData<eAudioUprRequestType_RefreshAudioSystem> oAMData(sLevelName);
+			SAudioManagerRequestData<eAudioManagerRequestType_RefreshAudioSystem> oAMData(sLevelName);
 			oAudioRequestData.flags = eAudioRequestFlags_PriorityHigh | eAudioRequestFlags_ExecuteBlocking;
 			oAudioRequestData.pData = &oAMData;
 			gEnv->pAudioSystem->PushRequest(oAudioRequestData);
@@ -328,9 +328,9 @@ void CAudioControlsEditorWindow::UpdateAudioSystemData()
 	SAudioRequest audioRequest;
 	audioRequest.flags = eAudioRequestFlags_PriorityHigh;
 
-	string levelPath = DRX_NATIVE_PATH_SEPSTR "levels" DRX_NATIVE_PATH_SEPSTR;
+	string levelPath = CRY_NATIVE_PATH_SEPSTR "levels" CRY_NATIVE_PATH_SEPSTR;
 	levelPath += GetIEditor()->GetLevelName();
-	SAudioUprRequestData<eAudioUprRequestType_ReloadControlsData> data(gEnv->pAudioSystem->GetConfigPath(), levelPath.c_str());
+	SAudioManagerRequestData<eAudioManagerRequestType_ReloadControlsData> data(gEnv->pAudioSystem->GetConfigPath(), levelPath.c_str());
 	audioRequest.pData = &data;
 	gEnv->pAudioSystem->PushRequest(audioRequest);
 }

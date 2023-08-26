@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  DinrusX Source File.
-//  Copyright (C), DinrusPro, 2010.
+//  Разработка (C), DinrusPro, 2010.
 // -------------------------------------------------------------------------
 //  File name:   PropertyVars.cpp
 //  Version:     v1.00

@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
-#include <DinrusXAnimation/IDrxAnimation.h>
+#include <DinrusX/DinrusXAnimation/IDrxAnimation.h>
 #include <DinrusX/DinrusX3dEng/IIndexedMesh.h>
 #include <DinrusX/CoreX/Renderer/IShader.h>
 #include <DinrusX/DinrusXRend/RenderView.h>

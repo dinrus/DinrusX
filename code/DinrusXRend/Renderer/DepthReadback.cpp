@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // This is a direct port from legacy FX_ZTargetReadback.
 // There are still issues here, and refactoring may definitely be needed at some point.

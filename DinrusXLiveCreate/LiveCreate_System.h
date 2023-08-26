@@ -8,7 +8,7 @@
 
 #if !defined(NO_LIVECREATE)
 
-	#include "LiveCreateCommands.h"
+	#include <DinrusX/DinrusXLiveCreate/LiveCreateCommands.h>
 
 namespace LiveCreate
 {

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // TODO : Consider renaming CDelegateContextAllocator to CAbstractAllocator and moving to separate file, it might be useful.
 // TODO : Can we avoid heap allocation when using lambda functions?

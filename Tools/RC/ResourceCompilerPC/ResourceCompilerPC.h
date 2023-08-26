@@ -1,15 +1,15 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 
 ////////////////////////////////////////////////////////////////////////////
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2001-2004.
+//  Разработка (C), Dinrus Studios, 2001-2004.
 // -------------------------------------------------------------------------
 //  File name:   ResourceCompilerPC.h
 //  Version:     v1.00
 //  Created:     4/11/2004 by Timur.
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: 
 // -------------------------------------------------------------------------
 //  History:

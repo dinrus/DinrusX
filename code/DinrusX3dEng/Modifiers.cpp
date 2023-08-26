@@ -1,4 +1,4 @@
-// Copyright 2015-2018 DinrusPro / Dinrus Group. РНЦП Динрус. 
+// Разработка 2015-2018 DinrusPro / Dinrus Group. РНЦП Динрус. 
 
 #include <DinrusX/DinrusX3dEng/StdAfx.h>
 #include <DinrusX/DinrusX3dEng/ParamMod.h>

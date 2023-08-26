@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  DinrusX Source File.
-//  Copyright (C), Dinrus.
+//  Разработка (C), Dinrus.
 // -------------------------------------------------------------------------
 //  File name:   ExcelExport.cpp
 //  Created:     19/03/2008 by Timur.
@@ -16,7 +16,7 @@
 #include "IDrxXML.h"
 #include "IXmlSerializer.h"
 #include "IRCLog.h"
-#include <Core/String/DrxPath.h>
+#include <DinrusX/CoreX/String/DrxPath.h>
 
 //////////////////////////////////////////////////////////////////////////
 string CExcelExportBase::GetXmlHeader() const

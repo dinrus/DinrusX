@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef __PIXELFORMATS_H__
 #define __PIXELFORMATS_H__
@@ -7,7 +7,7 @@
 #include <d3d9types.h>               // D3DFORMAT
 #include <dxgiformat.h>              // DX10+ formats
 
-#include <Core/Platform/platform.h>                // uint32
+#include <DinrusX/CoreX/Platform/platform.h>                // uint32
 #include <DinrusX/CoreX/Renderer/ITexture.h>                // ETEX_Format
 #include <DinrusX/DinrusX3dEng/ImageExtensionHelper.h>
 

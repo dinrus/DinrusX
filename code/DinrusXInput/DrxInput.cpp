@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXInput/StdAfx.h>
 
@@ -32,7 +32,7 @@ class CEngineModule_DrxInput : public IInputEngineModule
 		DRXINTERFACE_ADD(IInputEngineModule)
 	DRXINTERFACE_END()
 
-	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DrxInput, "EngineModule_DrxInput", "3cc05160-71bb-44f6-ae52-5949f30277f9"_drx_guid)
+	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DrxInput, "EngineModule_DinrusXInput", "3cc05160-71bb-44f6-ae52-5949f30277f9"_drx_guid)
 
 	virtual ~CEngineModule_DrxInput() {}
 

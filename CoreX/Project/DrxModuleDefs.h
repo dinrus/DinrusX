@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 #pragma once
 
 #define eDrxM_3DEngine 1
@@ -42,7 +42,7 @@ static const wchar_t* g_moduleNames[] =
 {
 	L"",
 	L"DinrusX3dEng",
-	L"DinrusXAction",
+	L"DinrusXAct",
 	L"DinrusXAI",
 	L"DinrusXAnimation",
 	L"DinrusXDynRespSys",

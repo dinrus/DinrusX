@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   frameprofilerender.cpp
 //  Version:     v1.00
 //  Created:     24/6/2003 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Rendering of FrameProfiling information.
 // -------------------------------------------------------------------------
 //  History: Some ideas taken from Jonathan Blow`s profiler from GDmag article.

@@ -194,7 +194,7 @@ public:
 	float const      m_maxRadius;
 };
 
-// Base class for a parameter implementation
+// Класс-основа для реализации параметра.
 class IParameterImpl : public CATLControlImpl
 {
 public:

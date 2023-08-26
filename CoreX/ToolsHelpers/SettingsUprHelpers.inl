@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #if !defined(DRX_PLATFORM)
 	#error DRX_PLATFORM is not defined, probably #include "stdafx.h" is missing.
@@ -10,7 +10,7 @@
 	#include "EngineSettingsUpr.h"
 	#include <DrxSystem/DrxUtils.h>
 
-	#include <Core/Platform/DrxWindows.h>
+	#include <DinrusX/CoreX/Platform/DrxWindows.h>
 	#include <shellapi.h> //ShellExecuteW()
 
 bool SettingsUprHelpers::Utf16ContainsAsciiOnly(const wchar_t* wstr)

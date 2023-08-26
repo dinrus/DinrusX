@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // ------------------------------------------------------------------------
 //  File name:   CREGeomCache.cpp
@@ -12,7 +12,7 @@
 
 #if defined(USE_GEOM_CACHES)
 
-#include <DinrusX/CoreX/Renderer/RenderElements/RendElement.h>
+#include <DinrusX/CoreX/Renderer/RendElements/RendElement.h>
 #include <DinrusX/DinrusX3dEng/CREGeomCache.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusX/DinrusXRend/Renderer.h>

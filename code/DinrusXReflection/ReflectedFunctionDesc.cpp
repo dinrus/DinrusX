@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
-#include "StdAfx.h"
-#include "ReflectedFunctionDesc.h"
+#include <DinrusX/DinrusXReflection/StdAfx.h>
+#include <DinrusX/DinrusXReflection/ReflectedFunctionDesc.h>
 
-#include "ReflectedTypeDesc.h"
+#include <DinrusX/DinrusXReflection/ReflectedTypeDesc.h>
 
 namespace Drx {
 namespace Reflection {

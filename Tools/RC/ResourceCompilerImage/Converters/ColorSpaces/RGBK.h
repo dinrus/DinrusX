@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef RGBK_h
 #define RGBK_h
 
-#include <Core/Math/Drx_Color.h>
+#include <DinrusX/CoreX/Math/Drx_Color.h>
 
 // Compressing float RGB HDR color into ubyte RGBK
 namespace RGBK

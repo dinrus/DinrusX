@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   terrain_compile.cpp
 //  Version:     v1.00
 //  Created:     15/04/2005 by Vladimir Kajalin
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:    Проверка видимости.
 // -------------------------------------------------------------------------
 //  History:

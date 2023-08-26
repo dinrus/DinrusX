@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 /*************************************************************************
 Dinrus Source File.
-Copyright (C), Dinrus Studios, 2001-2008.
+Разработка (C), Dinrus Studios, 2001-2008.
 -------------------------------------------------------------------------
 $Id: TextureSplitter.h,v 1.0 2008/01/17 15:14:13 AntonKaplanyan Exp wwwrun $
 $DateTime$

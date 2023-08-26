@@ -1,12 +1,12 @@
 ////////////////////////////////////////////////////////////////////////////
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2002.
+//  Разработка (C), Dinrus Studios, 2002.
 // -------------------------------------------------------------------------
 //  File name:   guidutil.h
 //  Version:     v1.00
 //  Created:     20/1/2003 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Utility functions to work with GUIDs.
 // -------------------------------------------------------------------------
 //  History:

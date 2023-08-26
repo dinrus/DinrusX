@@ -7,7 +7,7 @@
 #pragma warning(push) // Because lua.h touches warning C4996
 extern "C" {
 #include <lua.h>
-#include <lauxlib.h>
+#include <plugin/lua/lauxlib.h>
 }
 #pragma warning(pop)
 

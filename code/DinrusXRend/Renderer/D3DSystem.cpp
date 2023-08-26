@@ -1,8 +1,8 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <Core/String/UnicodeFunctions.h>
-#include <Core/Platform/WindowsUtils.h>
+#include <DinrusX/CoreX/String/UnicodeFunctions.h>
+#include <DinrusX/CoreX/Platform/WindowsUtils.h>
 #include <DinrusXSys/IProjectUpr.h>
 
 #include <DinrusX/DinrusXRend/D3DStereo.h>

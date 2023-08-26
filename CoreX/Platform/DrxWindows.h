@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   DrxWindows.h
 //  Version:     v1.00
 //  Created:     02/05/2012 by James Chilvers.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Specific header to handle Windows.h include
 // -------------------------------------------------------------------------
 //  History:

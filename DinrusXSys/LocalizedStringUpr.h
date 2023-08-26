@@ -4,7 +4,7 @@
 //  File name:   LocalizedStringUpr.h
 //  Version:     v1.00
 //  Created:     22/9/2005 by Timur.
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64 2003
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:
@@ -288,7 +288,7 @@ private:
 	typedef std::set<string> PrototypeSoundEvents;
 	PrototypeSoundEvents m_prototypeEvents;  // this set is purely used for clever string/string assigning to save memory
 
-	struct less_strcmp : public std::binary_function<const string&, const string&, bool>
+	struct less_strcmp : public std::__binary_function<const string&, const string&, bool>
 	{
 		bool operator()(const string& left, const string& right) const
 		{

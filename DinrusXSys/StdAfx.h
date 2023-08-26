@@ -4,7 +4,7 @@
 //  File name:   stdafx.h
 //  Version:     v1.00
 //  Created:     30/9/2002 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Precompiled Header.
 // -------------------------------------------------------------------------
 //  History:

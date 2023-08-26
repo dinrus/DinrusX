@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   objmancullqueue.cpp
 //  Version:     v1.00
 //  Created:     2/12/2009 by Michael Glueck
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:    Реализация асинхронных очередей obj-culling.
 // -------------------------------------------------------------------------
 //  History:

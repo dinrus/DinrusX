@@ -30,8 +30,8 @@
 			"AudioSystemPanel.cpp",
 			"ATLControlsResourceDialog.cpp",
 			"ATLControlsResourceDialog.h",
-			"ImplementationUpr.h",
-			"ImplementationUpr.cpp"
+			"ImplementationManager.h",
+			"ImplementationManager.cpp"
 		],
 		"qt":
 		[

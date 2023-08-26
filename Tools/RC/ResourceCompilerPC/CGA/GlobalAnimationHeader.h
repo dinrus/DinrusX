@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 //////////////////////////////////////////////////////////////////////
 //
@@ -15,7 +15,7 @@
 #ifndef _DRXTEK_GLOBAL_ANIMATION_HEADER_FLAGS
 #define _DRXTEK_GLOBAL_ANIMATION_HEADER_FLAGS
 
-#include <DinrusXAnimation/DrxCharAnimationParams.h>
+#include <DinrusX/DinrusXAnimation/DrxCharAnimationParams.h>
 #include "Controller.h"
 
 struct GlobalAnimationHeader

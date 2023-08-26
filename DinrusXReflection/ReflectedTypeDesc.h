@@ -12,7 +12,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "DescExtension.h"
+#include <DinrusX/DinrusXReflection/DescExtension.h>
 
 namespace Drx {
 namespace Reflection {

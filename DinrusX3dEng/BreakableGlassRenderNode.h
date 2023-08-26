@@ -6,8 +6,8 @@
 #pragma once
 
 // Includes
-#include <DinrusX/CoreX/Renderer/RenderElements/CREBreakableGlass.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREBreakableGlassHelpers.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREBreakableGlass.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREBreakableGlassHelpers.h>
 
 // Forward declares
 class CREBreakableGlass;

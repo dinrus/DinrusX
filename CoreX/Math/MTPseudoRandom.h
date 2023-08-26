@@ -6,7 +6,7 @@
 // a version by Isaku Wada, 2002/01/09
 // Static shared data converted to per-instance, 2008-11-13 by JSP @Dinrus.
 //
-// Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
+// Разработка (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
 // РНЦП Динрус.
 //
 // Redistribution and use in source and binary forms, with or without

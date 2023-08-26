@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 
@@ -11,7 +11,7 @@
 #include "StringHelpers.h"                  // StringHelpers
 
 #include "Cubemap.h"
-#include <Core/String/UnicodeFunctions.h>
+#include <DinrusX/CoreX/String/UnicodeFunctions.h>
 
 // we can't build debug-builds with the concurrency-runtime,
 // as _CRT_DBG_MALLOC interferes with concurrency-runtime's alloca/freea

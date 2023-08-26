@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/RendElements/MeshUtil.h>
 #include <DinrusX/CoreX/Renderer/VertexFormats.h>
-#include <Core/Math/MTPseudoRandom.h>
+#include <DinrusX/CoreX/Math/MTPseudoRandom.h>
 
 using namespace stable_rand;
 

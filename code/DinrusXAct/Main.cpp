@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXAct/StdAfx.h>
 #include <DinrusX/DinrusXAct/DinrusAction.h>
@@ -10,7 +10,7 @@ class CEngineModule_DrxAction : public IGameFrameworkEngineModule
 		DRXINTERFACE_ADD(IGameFrameworkEngineModule)
 	DRXINTERFACE_END()
 
-	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DrxAction, "CEngineModule_DrxAction", "943C708C-F469-48AA-B573-D6A0FCE7B9CD"_drx_guid)
+	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DrxAction, "EngineModule_DinrusXAction", "943C708C-F469-48AA-B573-D6A0FCE7B9CD"_drx_guid)
 
 	virtual ~CEngineModule_DrxAction()
 	{

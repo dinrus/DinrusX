@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
@@ -6,7 +6,7 @@
 #include <DinrusXMovie/IMovieSystem.h>
 #include <DinrusX/DinrusX3dEng/CGF/DrxHeaders.h>
 #include <DinrusXSys/Profilers/IStatoscope.h>
-#include <Core/Game/IGameFramework.h>
+#include <DinrusX/CoreX/Game/IGameFramework.h>
 
 #include <DinrusX/DinrusXRend/D3DPostProcess.h>
 #include <DinrusX/DinrusXRend/D3DStereo.h>

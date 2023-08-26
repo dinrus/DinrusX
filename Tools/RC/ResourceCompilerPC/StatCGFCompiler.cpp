@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2002.
+//  Разработка (C), Dinrus Studios, 2002.
 // -------------------------------------------------------------------------
 //  File name:   StatCGFCompiler.cpp
 //  Version:     v1.00
 //  Created:     5/11/2002 by Vladimir Kajalin
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: 
 // -------------------------------------------------------------------------
 //  History:
@@ -22,7 +22,7 @@
 #include <DinrusX/DinrusX3dEng/CGFLoader.h>
 #include <DinrusX/DinrusX3dEng/CGF/DrxHeaders.h>  // MAX_STATOBJ_LODS_NUM
 #include <DinrusXSys/DrxVersion.h>
-#include <Core/String/DrxPath.h>
+#include <DinrusX/CoreX/String/DrxPath.h>
 #include "StaticObjectCompiler.h"
 #include "StatCGFPhysicalize.h"
 #include "FileUtil.h"

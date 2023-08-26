@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // #SchematycTODO : Remove s_sizeTStringBufferSize and size_t functions, we should be using uint32 and uint64 instead.
 // #SchematycTODO : Remove Vec2 and Vec3 functions?.

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #if !defined(DRX_PLATFORM)
 	#error DRX_PLATFORM is not defined, probably #include "stdafx.h" is missing.
@@ -11,11 +11,11 @@
 
 #if defined(DRX_ENABLE_RC_HELPER)
 
-	#include <Core/Platform/DrxWindows.h>
-	#include <Core/Assert/DrxAssert.h>
+	#include <DinrusX/CoreX/Platform/DrxWindows.h>
+	#include <DinrusX/CoreX/Assert/DrxAssert.h>
 
 	#define IEntity IEntity_AfxOleOverride
-	#include <Core/Platform/DrxWindows.h>
+	#include <DinrusX/CoreX/Platform/DrxWindows.h>
 	#include <shlobj.h>   // requires <windows.h>
 	#include <shellapi.h> // requires <windows.h>
 	#undef IEntity

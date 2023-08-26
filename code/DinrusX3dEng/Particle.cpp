@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   Particle.cpp
 //  Created:     28/5/2001 by Vladimir Kajalin
 //  Modified:    11/3/2005 by Scott Peter
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 // -------------------------------------------------------------------------
 //  History:
 //

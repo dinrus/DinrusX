@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef COLORTYPES_H
 #define COLORTYPES_H
 
-#include <Core/Platform/platform.h>           // uint32, uint16 etc.
+#include <DinrusX/CoreX/Platform/platform.h>           // uint32, uint16 etc.
 
 // 16 bit 565 BGR color
 struct ColorB5G6R5

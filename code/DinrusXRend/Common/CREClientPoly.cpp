@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    CREClientPoly.cpp : implementation of 3D Client polygons RE.
@@ -9,10 +9,10 @@
    =============================================================================*/
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <DinrusX/DinrusXRend/CREClientPoly.h>
+#include <DinrusX/DinrusXRend/RendElements/CREClientPoly.h>
 #include <DinrusX/DinrusXRend/RenderView.h>
 
-#include <DinrusX/DinrusXRend/DriverD3D.h>
+#include <DinrusX/DinrusXRend/D3DRender/DriverD3D.h>
 
 //////////////////////////////////////////////////////////////////////////
 void CRenderPolygonDataPool::Clear()

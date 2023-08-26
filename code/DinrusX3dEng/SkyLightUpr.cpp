@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*************************************************************************
    -------------------------------------------------------------------------
@@ -14,7 +14,7 @@
 #include <DinrusX/DinrusX3dEng/StdAfx.h>
 #include <DinrusX/DinrusX3dEng/SkyLightUpr.h>
 #include <DinrusX/DinrusX3dEng/SkyLightNishita.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CRESky.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CRESky.h>
 #include <DinrusX/CoreX/Thread/IJobUpr_JobDelegator.h>
 
 DECLARE_JOB("SkyUpdate", TSkyJob, CSkyLightUpr::UpdateInternal);

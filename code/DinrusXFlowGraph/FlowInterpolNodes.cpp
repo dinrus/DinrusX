@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   FlowInterpolNodes.cpp
 //  Version:     v1.00
 //  Created:     27/4/2006 by AlexL.
-//  Compilers:   Visual Studio.NET 2005
+//  Компиляторы:   mingw-w64-clang-x86_64 2005
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 #include <assert.h>                         // assert()
@@ -8,7 +8,7 @@
 
 #include "IRCLog.h"                         // IRCLog
 #include "MathHelpers.h"                    // FastRoundFloatTowardZero()
-#include <Core/ToolsHelpers/ResourceCompilerHelper.h>         // eRcExitCode_FatalError
+#include <DinrusX/CoreX/ToolsHelpers/ResourceCompilerHelper.h>         // eRcExitCode_FatalError
 
 ///////////////////////////////////////////////////////////////////////////////////
 

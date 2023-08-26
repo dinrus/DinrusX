@@ -1,15 +1,15 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
-#include <ATLEntityData.h>
-#include <portaudio.h>
+#include <DinrusX/DinrusXAudio/ATLEntityData.h>
+#include <DinrusX/3rdParty/portaudio/portaudio.h>
 #include <atomic>
-#include <PoolObject.h>
+#include <DinrusX/DinrusXAudio/PoolObject.h>
 
 // Forward declare C struct
-struct SNDFILE_tag;
-using SNDFILE = struct SNDFILE_tag;
+struct sf_private_tag;
+using SNDFILE = struct sf_private_tag;
 
 namespace DrxAudio
 {

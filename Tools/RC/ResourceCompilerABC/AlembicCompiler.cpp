@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2012.
+//  Разработка (C), Dinrus Studios, 2012.
 // -------------------------------------------------------------------------
 //  File name:   AlembicCompiler.cpp
 //  Created:     20. June 2012 by Axel Gneiting
@@ -22,7 +22,7 @@
 #include "../../DrxXML/IXMLSerializer.h"
 #include "../../DinrusX/DinrusX3dEng/MeshCompiler/ForsythFaceReorderer.h"
 #include "../../DinrusX/DinrusX3dEng/MeshCompiler/TangentSpaceCalculation.h"
-#include <Core/String/StringUtils.h>
+#include <DinrusX/CoreX/String/StringUtils.h>
 
 namespace
 {

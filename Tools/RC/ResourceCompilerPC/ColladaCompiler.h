@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2006.
+//  Разработка (C), Dinrus Studios, 2006.
 // -------------------------------------------------------------------------
 //  File name:   ColladaCompiler.h
 //  Version:     v1.00
 //  Created:     3/4/2006 by Michael Smith
-//  Compilers:   Visual Studio.NET 2005
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: 
 // -------------------------------------------------------------------------
 //  History:

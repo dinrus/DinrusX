@@ -1,4 +1,4 @@
-// Copyright 2001-2016 Crytek GmbH / Crytek Group. All rights reserved.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. All rights reserved.
 
 #include "StdAfx.h"
 #include "game/Game.h"

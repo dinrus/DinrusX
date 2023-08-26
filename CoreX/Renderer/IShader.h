@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    IShader.h : Shaders common interface.
@@ -2687,7 +2687,7 @@ struct SShaderGraphBlock
 typedef std::vector<SShaderGraphBlock*> FXShaderGraphBlocks;
 typedef FXShaderGraphBlocks::iterator   FXShaderGraphBlocksItor;
 
-#include <DinrusX/CoreX/Renderer/RenderElements/RendElement.h>
+#include <DinrusX/CoreX/Renderer/RendElements/RendElement.h>
 #include "RenderObject.h"
 
 #endif // _ISHADER

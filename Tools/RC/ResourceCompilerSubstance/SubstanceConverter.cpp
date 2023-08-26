@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 
@@ -16,10 +16,10 @@
 #include "substance/pixelformat.h"
 #include "ResourceCompiler.h"
 #include <tiffio.h>
-#include <Core/DrxCrc32.h>
-#include <Core/ToolsHelpers/SettingsUprHelpers.h>
+#include <DinrusX/CoreX/DrxCrc32.h>
+#include <DinrusX/CoreX/ToolsHelpers/SettingsUprHelpers.h>
 #include <FileUtil.h>
-#include <Core/Math/LCGRandom.h>
+#include <DinrusX/CoreX/Math/LCGRandom.h>
 
 
 class CFileReader : public IFileManipulator

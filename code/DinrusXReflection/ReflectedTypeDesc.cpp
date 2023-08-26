@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
-#include "StdAfx.h"
-#include "ReflectedTypeDesc.h"
+#include <DinrusX/DinrusXReflection/StdAfx.h>
+#include <DinrusX/DinrusXReflection/ReflectedTypeDesc.h>
 
-#include "ReflectedFunctionDesc.h"
-#include "ReflectedVariableDesc.h"
+#include <DinrusX/DinrusXReflection/ReflectedFunctionDesc.h>
+#include <DinrusX/DinrusXReflection/ReflectedVariableDesc.h>
 
 namespace Drx {
 namespace Reflection {

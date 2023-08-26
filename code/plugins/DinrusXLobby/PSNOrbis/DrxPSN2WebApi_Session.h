@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef __DRXPSN2_WEBAPI_SESSION_H__
 #define __DRXPSN2_WEBAPI_SESSION_H__

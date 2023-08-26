@@ -4,7 +4,7 @@
 //  File name:   ItemString.h
 //  Version:     v1.00
 //  Created:     20/02/2007 by AlexL
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Description: Special version of CDrxName
 // -------------------------------------------------------------------------
 //  History:

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 //
 // File : rijndael.cpp
@@ -12,7 +12,7 @@
 //
 
 //
-// Original Copyright notice:
+// Original Разработка notice:
 //
 //    rijndael-alg-fst.c   v2.4   April '2000
 //    rijndael-alg-fst.h

@@ -1,6 +1,6 @@
 #############################################################################
-## Crytek Source File
-## Copyright (C), Crytek, 1999-2012.
+## Dinrus Source File
+## Разработка (C), Dinrus, 1999-2012.
 ##
 ## Creator: Valerio Guagliumi
 ## Date: Feb 01, 2013

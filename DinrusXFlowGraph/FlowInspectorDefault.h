@@ -4,7 +4,7 @@
 //  File name:   FlowInspectorDefault.h
 //  Version:     v1.00
 //  Created:     1/12/2005 by AlexL
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: A FlowGraph inspector which draws information of all
 //               flowgraphs as 2D overlay
 // -------------------------------------------------------------------------

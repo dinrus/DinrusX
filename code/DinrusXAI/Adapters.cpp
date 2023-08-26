@@ -1,11 +1,11 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   Adapters.cpp
 //  Created:     02/02/2009 by Matthew
-//  Описание: Implements adapters for AI objects from external interfaces to internal
-//               This is purely a translation layer without concrete instances
-//               They can have no state and must remain abstract
+//  Описание: Реализует адаптеры для объектов AI с внешних интерейсов на внутренние.
+//               Это число слой трансляции, без конкретных экземпляров.
+//               Они могут не иметь состояния и должны оставаться абстрактными.
 // --------------------------------------------------------------------------------------
 //  History:
 //

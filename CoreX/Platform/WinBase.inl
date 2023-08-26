@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   WinBase.cpp
@@ -15,8 +15,8 @@
 	#error This file is not allowed to be used directly, use platform_impl.h instead.
 #endif
 
-#include <Core/Assert/DrxAssert.h>
-#include <Core/String/StringUtils.h>
+#include <DinrusX/CoreX/Assert/DrxAssert.h>
+#include <DinrusX/CoreX/String/StringUtils.h>
 
 #include <pthread.h>
 #include <sys/types.h>
@@ -64,9 +64,9 @@ static const FS_ERRNO_TYPE FS_EISDIR = EISDIR;
 #define INCLUDED_FROM_DRX_WINBASE_IMPL
 
 #if DRX_PLATFORM_ORBIS
-	#include <Core/Platform/WinBase_sce.inl>
+	#include <DinrusX/CoreX/Platform/WinBase_sce.inl>
 #elif DRX_PLATFORM_POSIX
-	#include <Core/Platform/WinBase_posix.inl>
+	#include <DinrusX/CoreX/Platform/WinBase_posix.inl>
 #endif
 
 #undef INCLUDED_FROM_DRX_WINBASE_IMPL

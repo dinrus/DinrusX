@@ -8,7 +8,7 @@
 #include "AudioControlsEditorPlugin.h"
 #include "AudioSystemModel.h"
 #include "QAudioSystemSettingsDialog.h"
-#include "ImplementationUpr.h"
+#include "ImplementationManager.h"
 
 // Qt
 #include <QtUtil.h>
@@ -98,7 +98,7 @@ CAudioSystemPanel::CAudioSystemPanel()
 
 	// Update the middleware name label.
 	// Note the 'this' ptr being passed as a context variable so that Qt can disconnect this lambda when the object is destroyed (ie. the ACE is closed).
-	connect(CAudioControlsEditorPlugin::GetImplementationManger(), &CImplementationUpr::ImplementationChanged, this, [&]()
+	connect(CAudioControlsEditorPlugin::GetImplementationManger(), &CImplementationManager::ImplementationChanged, this, [&]()
 		{
 			IAudioSystemEditor* pAudioImpl = CAudioControlsEditorPlugin::GetAudioSystemEditorImpl();
 			if (pAudioImpl)

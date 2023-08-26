@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 // Types.h -- Variable prototypes
 //
 //========================================================================================================================================================
@@ -8,7 +8,7 @@
 #ifndef TYPES_H
 #define TYPES_H
 
-static char sgCopyrightString[] = "\r\n\r\n(C) 2004 ATI Research, Inc.\r\n\r\n";
+static char sgРазработкаString[] = "\r\n\r\n(C) 2004 ATI Research, Inc.\r\n\r\n";
 
 // DEFINES ===============================================================================================================================================
 #ifdef TRUE
@@ -51,6 +51,6 @@ static char sgCopyrightString[] = "\r\n\r\n(C) 2004 ATI Research, Inc.\r\n\r\n";
    typedef const char cstr;
 */   
 
-#include <Core/BaseTypes.h>
+#include <DinrusX/CoreX/BaseTypes.h>
 
 #endif

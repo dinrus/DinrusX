@@ -8,9 +8,9 @@
 
 #include <tuple>
 
-#include "IReflection.h"
-#include "Function.h"
-#include "IDescExtension.h"
+#include <DinrusX/DinrusXReflection/IReflection.h>
+#include <DinrusX/DinrusXReflection/Function.h>
+#include <DinrusX/DinrusXReflection/IDescExtension.h>
 
 namespace Drx {
 namespace Reflection {

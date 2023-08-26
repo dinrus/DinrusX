@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // Note: Can't use #pragma once here, since (like assert.h) this file CAN be included more than once.
 // Each time it's included, it will re-define assert to match DRX_ASSERT.

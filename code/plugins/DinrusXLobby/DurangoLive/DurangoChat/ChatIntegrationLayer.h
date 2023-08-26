@@ -5,7 +5,7 @@
 //// THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 //// PARTICULAR PURPOSE.
 ////
-//// Copyright (c) Microsoft Corporation. All rights reserved
+//// Разработка (c) Microsoft Corporation. All rights reserved
 
 #ifndef __DRXDURANGOCHAT_H__
 #define __DRXDURANGOCHAT_H__

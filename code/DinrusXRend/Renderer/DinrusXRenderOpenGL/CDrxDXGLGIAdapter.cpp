@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   CDrxDXGLGIAdapter.cpp
@@ -15,7 +15,7 @@
 #include <DinrusX/DinrusXRend/CDrxDXGLGIFactory.hpp>
 #include <DinrusX/DinrusXRend/CDrxDXGLGIOutput.hpp>
 #include <DinrusX/DinrusXRend/Implementation/GLDevice.hpp>
-#include <Core/String/UnicodeFunctions.h>
+#include <DinrusX/CoreX/String/UnicodeFunctions.h>
 
 CDrxDXGLGIAdapter::CDrxDXGLGIAdapter(CDrxDXGLGIFactory* pFactory, NDrxOpenGL::SAdapter* pGLAdapter)
 	: m_spGLAdapter(pGLAdapter)

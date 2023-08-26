@@ -51,7 +51,7 @@ private:
 class CFacialSentence : public IFacialSentence, public _reference_target_t
 {
 public:
-	struct SFaceIdentifierHandleLess : public std::binary_function<CFaceIdentifierHandle, CFaceIdentifierHandle, bool>
+	struct SFaceIdentifierHandleLess : public std::__binary_function<CFaceIdentifierHandle, CFaceIdentifierHandle, bool>
 	{
 		bool operator()(const CFaceIdentifierHandle& left, const CFaceIdentifierHandle& right) const
 		{

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/ResFile.h>
@@ -1784,8 +1784,8 @@ void CResFile::GetMemoryUsage(IDrxSizer* pSizer) const
 }
 
 
-#include <Core/TypeInfo_impl.h>
+#include <DinrusX/CoreX/TypeInfo_impl.h>
 #include <DinrusX/DinrusXRend/ResFile_info.h>
 #ifndef _LIB
-	#include <Core/String/Name_TypeInfo.h>
+	#include <DinrusX/CoreX/String/Name_TypeInfo.h>
 #endif

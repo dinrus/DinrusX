@@ -4,7 +4,7 @@
 //  File name:   VTOLVehicleUpr.h
 //  Version:     v1.00
 //  Created:     12/05/2011
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Description: Predict and manage the future positions of specified entities
 // -------------------------------------------------------------------------
 //  History:

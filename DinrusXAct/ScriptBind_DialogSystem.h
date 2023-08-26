@@ -4,7 +4,7 @@
 //  File name:   ScriptBind_DialogSystem.cpp
 //  Version:     v1.00
 //  Created:     02/08/2006 by AlexL
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Dialog System ScriptBinding
 // -------------------------------------------------------------------------
 //  History:

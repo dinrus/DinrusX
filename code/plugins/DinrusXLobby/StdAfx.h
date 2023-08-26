@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #if !defined(AFX_STDAFX_H__D3D35062_283E_4DF2_A9C4_9AE0A1B082A8__INCLUDED_)
 #define AFX_STDAFX_H__D3D35062_283E_4DF2_A9C4_9AE0A1B082A8__INCLUDED_

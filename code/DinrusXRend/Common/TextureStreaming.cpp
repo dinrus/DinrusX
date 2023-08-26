@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    TextureStreaming.cpp : Common Texture Streaming manager implementation.
@@ -12,8 +12,8 @@
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/CommonRender.h>
 #include <DinrusX/DinrusXRend/Image/DDSImage.h>
-#include <Core/String/StringUtils.h>                // stristr()
-#include <Core/Memory/ILocalMemoryUsage.h>
+#include <DinrusX/CoreX/String/StringUtils.h>                // stristr()
+#include <DinrusX/CoreX/Memory/ILocalMemoryUsage.h>
 #include <DinrusX/CoreX/Thread/IJobUpr_JobDelegator.h>
 
 #include <DinrusX/DinrusXRend/TextureStreamPool.h>

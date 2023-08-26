@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2013-2014.
+//  Разработка (C), Dinrus Studios, 2013-2014.
 // -------------------------------------------------------------------------
 //  File name:   FIR-Weights.h
 //  Version:     v1.00
 //  Created:     24/05/2013 by nielsf.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: 
 // -------------------------------------------------------------------------
 //  History:

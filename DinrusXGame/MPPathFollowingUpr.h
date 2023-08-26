@@ -4,7 +4,7 @@
 //  File name:   VTOLVehicleUpr.h
 //  Version:     v1.00
 //  Created:     02/09/2011
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Description: Handles entities being attached to paths in multiplayer
 // -------------------------------------------------------------------------
 //  History:

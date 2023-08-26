@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    PostProcessRenderModes : custom render modes post processing
@@ -16,7 +16,7 @@
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusX/DinrusXRend/D3DPostProcess.h>
-#include <Core/Audio/IAudioSystem.h>
+#include <DinrusX/CoreX/Audio/IAudioSystem.h>
 
 #pragma warning(push)
 #pragma warning(disable: 4244)

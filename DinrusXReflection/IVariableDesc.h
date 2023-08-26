@@ -4,8 +4,8 @@
 
 #include <DinrusX/CoreX/Extension/DrxGUID.h>
 
-#include "IReflection.h"
-#include "IDescExtension.h"
+#include <DinrusX/DinrusXReflection/IReflection.h>
+#include <DinrusX/DinrusXReflection/IDescExtension.h>
 
 namespace Drx {
 namespace Reflection {

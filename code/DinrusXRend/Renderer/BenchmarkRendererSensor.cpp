@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 
@@ -12,7 +12,7 @@
 	#include <HighPrecisionTimer.h>
 	#include <IRenderResultsObserver.h>
 
-	#include <Core/Platform/DrxLibrary.h>
+	#include <DinrusX/CoreX/Platform/DrxLibrary.h>
 
 static BenchmarkFramework::IBenchmarkFramework* s_instance = 0;
 

@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <Core/Math/Range.h>
+#include <DinrusX/CoreX/Math/Range.h>
 #include <DinrusX/DinrusXRend/ShadowMap.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 #include <DinrusX/DinrusXRend/D3DPostProcess.h>

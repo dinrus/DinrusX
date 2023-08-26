@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusX3dEng/StdAfx.h>
 #include <DinrusX/DinrusX3dEng/ParticleComponentRuntime.h>
 #include <DinrusX/DinrusX3dEng/ParticleSystem.h>
-//#include ".h"
+
 
 namespace pfx2
 {
@@ -154,7 +154,7 @@ void CParticleComponentRuntime::AddSubInstances(TVarArray<SInstance> instances)
 	uint lastInstance = firstInstance + instances.size();
 	m_subInstances.append(instances);
 	m_subInstanceData.resize(ComponentParams().m_instanceDataStride * m_subInstances.size());
-	
+
 	SUpdateRange instanceRange(firstInstance, lastInstance);
 	GetComponent()->InitSubInstances(*this, instanceRange);
 
@@ -492,7 +492,7 @@ void CParticleComponentRuntime::UpdateGPURuntime()
 	params.emitterOrientation = m_pEmitter->GetLocation().q;
 	params.physAccel          = m_pEmitter->GetPhysicsEnv().m_UniformForces.vAccel;
 	params.physWind           = m_pEmitter->GetPhysicsEnv().m_UniformForces.vWind;
-	
+
 	GetComponent()->UpdateGPUParams(*this, params);
 
 	GetComponent()->AddSubInstances(*this);
@@ -561,7 +561,7 @@ void CParticleComponentRuntime::DebugStabilityCheck()
 
 bool CParticleComponentRuntime::HasParticles() const
 {
-	return m_pGpuRuntime ? m_pGpuRuntime->HasParticles() : m_container.GetRealNumParticles() != 0; 
+	return m_pGpuRuntime ? m_pGpuRuntime->HasParticles() : m_container.GetRealNumParticles() != 0;
 }
 
 void CParticleComponentRuntime::AccumStats()

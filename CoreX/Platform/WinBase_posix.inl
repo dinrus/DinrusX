@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #if !defined(INCLUDED_FROM_DRX_WINBASE_IMPL)
 #endif
@@ -8,7 +8,7 @@
 // File System
 //////////////////////////////////////////////////////////////////////////
 
-#include <Core/Platform/DrxLibrary.h>
+#include <DinrusX/CoreX/Platform/DrxLibrary.h>
 
 #include <sys/types.h>
 #include <unistd.h>

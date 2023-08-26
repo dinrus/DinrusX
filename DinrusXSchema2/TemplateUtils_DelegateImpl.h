@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef INCLUDING_FROM_TEMPLATE_UTILS_DELEGATE_HEADER
 #error This file should only be included from TemplateUtils_Delegate.h!

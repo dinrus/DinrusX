@@ -12,9 +12,9 @@
 #include <CryAudio/IAudioSystem.h>
 #include <CryMath/Cry_Camera.h>
 
-#include <DinrusX/DinrusXSys/File/CryFile.h>
+#include <CrySystem/File/CryFile.h>
 #include <CryString/CryPath.h>
-#include "ImplementationUpr.h"
+#include "ImplementationManager.h"
 
 using namespace ACE;
 using namespace PathUtil;
@@ -24,7 +24,7 @@ QATLTreeModel CAudioControlsEditorPlugin::ms_layoutModel;
 std::set<string> CAudioControlsEditorPlugin::ms_currentFilenames;
 IAudioProxy* CAudioControlsEditorPlugin::ms_pIAudioProxy;
 AudioControlId CAudioControlsEditorPlugin::ms_nAudioTriggerID;
-CImplementationUpr CAudioControlsEditorPlugin::ms_implementationUpr;
+CImplementationManager CAudioControlsEditorPlugin::ms_implementationManager;
 
 REGISTER_VIEWPANE_FACTORY(CAudioControlsEditorWindow, "Audio Controls Editor", "Tools", true)
 
@@ -40,7 +40,7 @@ CAudioControlsEditorPlugin::CAudioControlsEditorPlugin(IEditor* editor)
 		ms_pIAudioProxy->SetOcclusionType(eAudioOcclusionType_Ignore);
 	}
 
-	ms_implementationUpr.LoadImplementation();
+	ms_implementationManager.LoadImplementation();
 	ReloadModels();
 	ms_layoutModel.Initialize(&ms_ATLModel);
 	GetISystem()->GetISystemEventDispatcher()->RegisterListener(this);
@@ -49,7 +49,7 @@ CAudioControlsEditorPlugin::CAudioControlsEditorPlugin(IEditor* editor)
 void CAudioControlsEditorPlugin::Release()
 {
 	UnregisterPlugin();
-	ms_implementationUpr.Release();
+	ms_implementationManager.Release();
 	if (ms_pIAudioProxy)
 	{
 		StopTriggerExecution();
@@ -60,7 +60,7 @@ void CAudioControlsEditorPlugin::Release()
 
 void CAudioControlsEditorPlugin::SaveModels()
 {
-	ACE::IAudioSystemEditor* pImpl = ms_implementationUpr.GetImplementation();
+	ACE::IAudioSystemEditor* pImpl = ms_implementationManager.GetImplementation();
 	if (pImpl)
 	{
 		CAudioControlsWriter writer(&ms_ATLModel, &ms_layoutModel, pImpl, ms_currentFilenames);
@@ -72,7 +72,7 @@ void CAudioControlsEditorPlugin::ReloadModels()
 	GetIEditor()->SuspendUndo();
 	ms_ATLModel.SetSuppressMessages(true);
 
-	ACE::IAudioSystemEditor* pImpl = ms_implementationUpr.GetImplementation();
+	ACE::IAudioSystemEditor* pImpl = ms_implementationManager.GetImplementation();
 	if (pImpl)
 	{
 		ms_layoutModel.clear();
@@ -89,7 +89,7 @@ void CAudioControlsEditorPlugin::ReloadModels()
 
 void CAudioControlsEditorPlugin::ReloadScopes()
 {
-	ACE::IAudioSystemEditor* pImpl = ms_implementationUpr.GetImplementation();
+	ACE::IAudioSystemEditor* pImpl = ms_implementationManager.GetImplementation();
 	if (pImpl)
 	{
 		ms_ATLModel.ClearScopes();
@@ -105,7 +105,7 @@ CATLControlsModel* CAudioControlsEditorPlugin::GetATLModel()
 
 ACE::IAudioSystemEditor* CAudioControlsEditorPlugin::GetAudioSystemEditorImpl()
 {
-	return ms_implementationUpr.GetImplementation();
+	return ms_implementationManager.GetImplementation();
 }
 
 QATLTreeModel* CAudioControlsEditorPlugin::GetControlsTree()
@@ -154,13 +154,13 @@ void CAudioControlsEditorPlugin::OnSystemEvent(ESystemEvent event, UINT_PTR wpar
 	{
 	case ESYSTEM_EVENT_AUDIO_IMPLEMENTATION_LOADED:
 		GetIEditor()->SuspendUndo();
-		ms_implementationUpr.LoadImplementation();
+		ms_implementationManager.LoadImplementation();
 		GetIEditor()->ResumeUndo();
 		break;
 	}
 }
 
-CImplementationUpr* CAudioControlsEditorPlugin::GetImplementationManger()
+CImplementationManager* CAudioControlsEditorPlugin::GetImplementationManger()
 {
-	return &ms_implementationUpr;
+	return &ms_implementationManager;
 }

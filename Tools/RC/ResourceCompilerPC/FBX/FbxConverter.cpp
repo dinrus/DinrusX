@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "stdafx.h"
 
 #include <DinrusX/DinrusX3dEng/CGF/DrxHeaders.h>  // EPhysicsGeomType
-#include <Core/Math/Drx_Geo.h>
-#include <Core/Math/Drx_Math.h>
+#include <DinrusX/CoreX/Math/Drx_Geo.h>
+#include <DinrusX/CoreX/Math/Drx_Math.h>
 #include <DinrusX/CoreX/Renderer/VertexFormats.h>
 #include <DinrusX/DinrusX3dEng/CGF/CGFContent.h>
 

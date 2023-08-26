@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2012.
+//  Разработка (C), Dinrus Studios, 2012.
 // -------------------------------------------------------------------------
 //  File name:   GeomCacheBlockCompressor.h
 //  Created:     12/8/2012 by Axel Gneiting

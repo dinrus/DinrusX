@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   IJobUpr_JobDelegator.h
 //  Version:     v1.00
 //  Created:     11/3/2011 by Christopher Bolte
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Interface for the DECLARE_JOB macro used to generate job delegators for the JobUpr
 // -------------------------------------------------------------------------
 //  History:

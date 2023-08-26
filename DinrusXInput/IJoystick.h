@@ -4,7 +4,7 @@
 //  File name:   IJoystick.h
 //  Version:     v1.00
 //  Created:     7/8/2006 by MichaelS.
-//  Compilers:   Visual Studio.NET 2005
+//  Компиляторы:   mingw-w64-clang-x86_64 2005
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

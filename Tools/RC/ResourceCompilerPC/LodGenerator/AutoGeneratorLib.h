@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 /*************************************************************************
 Dinrus Source File.
-Copyright (C), Dinrus Studios, 2013.
+Разработка (C), Dinrus Studios, 2013.
 *************************************************************************/
 
 #pragma once
 
-#include <Core/smartptr.h>
+#include <DinrusX/CoreX/smartptr.h>
 
 class CMesh;
 struct CNodeCGF;

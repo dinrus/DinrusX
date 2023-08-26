@@ -1,8 +1,8 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/TextureHelpers.h>
-#include <Core/String/StringUtils.h>
+#include <DinrusX/CoreX/String/StringUtils.h>
 
 /* -----------------------------------------------------------------------
  * These functions are used in DinrusX3dEng, DinrusSystem, DinrusXRenderD3D11,

@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   Linux32Specific.h
 //  Version:     v1.00
 //  Created:     05/03/2004 by MarcoK.
-//  Compilers:   Visual Studio.NET, GCC 3.2
+//  Компиляторы:   mingw-w64-clang-x86_64, GCC 3.2
 //  Описание: Specific to Linux declarations, inline functions etc.
 // -------------------------------------------------------------------------
 //  History:

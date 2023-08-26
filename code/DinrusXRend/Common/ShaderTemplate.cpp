@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    ShaderTemplate.cpp : implementation of the Shaders templates support.
@@ -11,7 +11,7 @@
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusX/DinrusX3dEng/CGF/DrxHeaders.h>
-#include <Core/String/StringUtils.h>                // stristr()
+#include <DinrusX/CoreX/String/StringUtils.h>                // stristr()
 #include <DinrusXSys/Scaleform/IFlashUI.h>
 #include <DinrusX/DinrusXRend/Textures/TextureHelpers.h>
 

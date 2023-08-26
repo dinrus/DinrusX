@@ -5,7 +5,7 @@ namespace Upp {
 /* MD5C.C - RSA Data Security, Inc., MD5 message-digest algorithm
 */
 
-/* Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All
+/* Разработка (C) 1991-2, RSA Data Security, Inc. Created 1991. All
 rights reserved.
 
 License to copy and use this software is granted provided that it

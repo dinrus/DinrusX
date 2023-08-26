@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "stdafx.h"
 #include "IResCompiler.h"
@@ -6,7 +6,7 @@
 #include "IRCLog.h"
 #include "XML/xml.h"
 
-#include <Core/Platform/DrxWindows.h>
+#include <DinrusX/CoreX/Platform/DrxWindows.h>
 
 // Must be included only once in DLL module.
 #include <platform_implRC.inl>

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    ShaderScript.cpp : loading/reloading/hashing of shader scipts.
@@ -12,7 +12,7 @@
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusX/DinrusX3dEng/CGF/DrxHeaders.h>
 #include <DinrusX/DinrusXRend/Shaders/RemoteCompiler.h>
-#include <Core/Game/IGameFramework.h>
+#include <DinrusX/CoreX/Game/IGameFramework.h>
 #include <DinrusX/DinrusXRend/D3DRender/D3DMultiResRendering.h>
 
 #if DRX_PLATFORM_WINDOWS

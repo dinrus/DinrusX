@@ -1,0 +1,10 @@
+file
+	DPIAware.xml,
+	launcher.rc,
+	LinkReorderSeed.txt,
+	Main.cpp,
+	resource.h,
+	StdAfx.cpp,
+	StdAfx.h,
+	TrustInfo.manifest;
+

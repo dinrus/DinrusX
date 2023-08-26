@@ -1,6 +1,6 @@
 #############################################################################
-## Crytek Source File
-## Copyright (C) 2006, Crytek Studios
+## Dinrus Source File
+## Разработка (C) 2006, Dinrus Studios
 ##
 ## Creator: Sascha Demetrio
 ## Date: Jul 31, 2006

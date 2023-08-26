@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   GameStateRecorder.cpp
 //  Version:     v1.00
 //  Created:     3/2008 by Luciano Morpurgo.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Description: Checks the player and other game specific objects' states and communicate them to the TestUpr
 //							 Implements IGameStateRecorder
 // -------------------------------------------------------------------------

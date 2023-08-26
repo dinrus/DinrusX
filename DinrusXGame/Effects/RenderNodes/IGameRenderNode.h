@@ -5,7 +5,7 @@
 
 #pragma once
 
-#include <DinrusX/DinrusXGame/Effects/RenderElements/GameRenderElement.h>
+#include <DinrusX/DinrusXGame/Effects/RendElements/GameRenderElement.h>
 #include <DinrusX/DinrusXGame/Effects/GameEffectsSystem.h>
 
 // Forward declares

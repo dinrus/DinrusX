@@ -1,16 +1,16 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // ResourceCompiler.cpp: Defines the entry point for the console application.
 
 #include "stdafx.h"
 
 // Must be included only once in DLL module.
-#include <Core/Assert/DrxAssert_impl.h>
+#include <DinrusX/CoreX/Assert/DrxAssert_impl.h>
 #include <platform_implRC.inl>
 
 #include <time.h>
 
-#include <Core/Platform/DrxWindows.h>   // needed for DbgHelp.h
+#include <DinrusX/CoreX/Platform/DrxWindows.h>   // needed for DbgHelp.h
 #include <DbgHelp.h>
 
 #include <io.h>
@@ -22,7 +22,7 @@
 #include "AssetUpr/AssetUpr.h"
 #include "CrashHandler.h"
 #include "CpuInfo.h"
-#include <Core/String/DrxPath.h>
+#include <DinrusX/CoreX/String/DrxPath.h>
 #include "Mailer.h"
 #include "StringHelpers.h"
 #include "ListFile.h"
@@ -31,15 +31,15 @@
 #include "IXmlSerializer.h"
 #include "MathHelpers.h"
 #include "NameConverter.h"
-#include <Core/DrxCrc32.h>
+#include <DinrusX/CoreX/DrxCrc32.h>
 #include "PropertyVars.h"
-#include <Core/StlUtils.h>
+#include <DinrusX/CoreX/StlUtils.h>
 #include "TextFileReader.h"
 #include "ZipEncryptor.h"
 #include "FileStorage.h"
 #include "ScopeTimer.h"
 #include "Digest.h"
-#include <Core/ToolsHelpers/ResourceCompilerHelper.h>
+#include <DinrusX/CoreX/ToolsHelpers/ResourceCompilerHelper.h>
 
 #include <psapi.h> // GetProcessMemoryInfo()
 #include <cctype> // tolower
@@ -1555,7 +1555,7 @@ static string GetResourceCompilerGenericInfo(const ResourceCompiler& rc, const s
 
 	s += newline;
 
-	s += "Copyright (c) 2001-2016 DinrusPro. РНЦП Динрус.";
+	s += "Разработка (c) 2001-2016 DinrusPro. РНЦП Динрус.";
 	s += newline;
 
 	s += newline;

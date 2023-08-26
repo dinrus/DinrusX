@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 // Radiance format .HDR  write routines
 //
 //  based loosely on RGBE conversion code by Bruce Walter and Greg Ward

@@ -8,8 +8,8 @@
 #include <ShellAPI.h> // requires <windows.h>
 
 // We need shell api for Current Root Extrection.
-#include "shlwapi.h"
-#pragma comment(lib, "shlwapi.lib")
+#include >shlwapi.h>
+#pragma comment(lib, "libshlwapi.a")
 
 #include <DinrusX/CoreX/Platform/CryLibrary.h>
 #include <CryGame/IGameStartup.h>

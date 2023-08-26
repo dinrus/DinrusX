@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXAudio/StdAfx.h>
 #include <DinrusX/DinrusXAudio/AudioCVars.h>
@@ -138,7 +138,7 @@ class CEngineModule_DinrusXAudioSys : public ISystemModule
 	DRXINTERFACE_ADD(ISystemModule)
 	DRXINTERFACE_END()
 
-	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DinrusXAudioSys, "EngineModule_DinrusXAudioSys", "ec73cf43-62ca-4a7f-8b45-1076dc6fdb8b"_drx_guid)
+	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DinrusXAudioSys, "EngineModule_DinrusXAudio", "ec73cf43-62ca-4a7f-8b45-1076dc6fdb8b"_drx_guid)
 
 	CEngineModule_DinrusXAudioSys();
 	virtual ~CEngineModule_DinrusXAudioSys() override;

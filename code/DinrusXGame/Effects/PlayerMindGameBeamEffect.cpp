@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // A helper class that is used to render a beam between the Player's 
 // hand and a (boss) entity during a Mind-game button mash sequence.

@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
 #include <DinrusX/CoreX/ParticleSys/IParticlesPfx2.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREParticle.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREParticle.h>
 
 namespace gpu_pfx2
 {

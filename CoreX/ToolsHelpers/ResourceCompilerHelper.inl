@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #if !defined(DRX_PLATFORM)
 #error DRX_PLATFORM is not defined, probably #include "stdafx.h" is missing.
@@ -16,9 +16,9 @@
 
 #pragma warning (disable:4312)
 
-#include <Core/Platform/DrxLibrary.h>
+#include <DinrusX/CoreX/Platform/DrxLibrary.h>
 #include <shellapi.h> // ShellExecuteW()
-#include <Core/Assert/DrxAssert.h>
+#include <DinrusX/CoreX/Assert/DrxAssert.h>
 
 #include <stdio.h>
 #include <memory> // std::unique_ptr for DrxTIFPlugin.

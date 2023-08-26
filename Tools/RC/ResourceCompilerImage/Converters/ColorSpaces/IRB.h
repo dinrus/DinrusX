@@ -1,8 +1,8 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 #ifndef IRB_h
 #define IRB_h
 
-#include <Core/Math/Drx_Color.h>
+#include <DinrusX/CoreX/Math/Drx_Color.h>
 
 struct IRB
 {

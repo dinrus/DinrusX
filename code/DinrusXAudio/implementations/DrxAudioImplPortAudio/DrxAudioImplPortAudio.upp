@@ -1,0 +1,24 @@
+uses
+	DinrusX/3rdParty/portaudio;
+
+file
+	ATLEntities.h,
+	AudioEvent.cpp,
+	AudioEvent.h,
+	AudioImpl.cpp,
+	AudioImpl.h,
+	AudioImplCVars.cpp,
+	AudioImplCVars.h,
+	AudioObject.cpp,
+	AudioObject.h,
+	AudioTrigger.cpp,
+	AudioTrigger.h,
+	Common.cpp,
+	Common.h,
+	GlobalData.h,
+	stdafx.cpp,
+	stdafx.h;
+
+mainconfig
+	"" = "DLL";
+

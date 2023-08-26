@@ -19,7 +19,7 @@
 #include <DinrusX/DinrusX3dEng/ParticleEnviron.h>
 #include <DinrusX/DinrusX3dEng/ParticleUtils.h>
 #include <DinrusX/DinrusX3dEng/Particle.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREParticle.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREParticle.h>
 
 #include <DinrusX/CoreX/Serialization/IArchive.h>
 #include <DinrusX/DinrusX3dEng/ParticleCommon.h>

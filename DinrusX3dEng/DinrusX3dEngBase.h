@@ -4,7 +4,7 @@
 //  File name:   drx3denginebase.h
 //  Version:     v1.00
 //  Created:     28/5/2001 by Vladimir Kajalin
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Access to external stuff used by 3d engine. Most 3d engine classes
 //               are derived from this base class to access other interfaces
 // -------------------------------------------------------------------------

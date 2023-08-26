@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
-#include "Core/Serialization/Forward.h"
+#include <DinrusX/DinrusXReflection/Serialization/Forward.h>
 
 //#include <DinrusX/DinrusXSchema/ReflectionUtils.h>
 
-#include "RegisteredType.h"
+#include <DinrusX/DinrusXReflection/RegisteredType.h>
 
 namespace Drx {
 namespace Reflection {

@@ -4,7 +4,7 @@
 //  File name:   MaterialFGUpr
 //  Version:     v1.00
 //  Created:     29/11/2006 by AlexL-Benito GR
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: This class manage all the FlowGraph HUD effects related to a
 //								material FX.
 // -------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // ------------------------------------------------------------------------
 //  File name:   GeomCacheDecoder.cpp
@@ -788,7 +788,7 @@ bool PrepareFillMeshData(SGeomCacheRenderMeshUpdateContext& updateContext, const
 		lerpFactor = 0.0f;
 	}
 
-	if (DinrusX3dEngBase::m_pCVars->e_GeomCacheLerpBetweenFrames == 0)
+	if (DinrusX3dEngBase::GetCVars()->e_GeomCacheLerpBetweenFrames == 0)
 	{
 		pCeilFrameMeshData = pFloorFrameMeshData;
 		lerpFactor = 0.0f;

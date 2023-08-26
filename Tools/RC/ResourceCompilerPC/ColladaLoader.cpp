@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2006.
+//  Разработка (C), Dinrus Studios, 2006.
 // -------------------------------------------------------------------------
 //  File name:   ColladaLoader.cpp
 //  Version:     v1.00
 //  Created:     3/4/2006 by Michael Smith
-//  Compilers:   Visual Studio.NET 2005
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: 
 // -------------------------------------------------------------------------
 //  History:
@@ -24,11 +24,11 @@
 #include <vector>
 #include <map>
 #include <cctype>
-#include <Core/Math/Drx_Vector3.h>
+#include <DinrusX/CoreX/Math/Drx_Vector3.h>
 #include "ColladaLoader.h"
 #include "PropertyHelpers.h"
 #include "StringHelpers.h"
-#include <Core/String/StringUtils.h>
+#include <DinrusX/CoreX/String/StringUtils.h>
 #include "Util.h"
 
 #include "CGA/Controller.h"
@@ -44,7 +44,7 @@
 #include "AdjustRotLog.h"
 #include "Decompose.h"
 
-#include <Core/Platform/DrxWindows.h>   // MAX_PATH
+#include <DinrusX/CoreX/Platform/DrxWindows.h>   // MAX_PATH
 
 
 namespace

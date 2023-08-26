@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXAct/StdAfx.h>
 #include <DinrusX/DinrusXAct/BreakableGlassSystem.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREBreakableGlass.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREBreakableGlassHelpers.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREBreakableGlass.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREBreakableGlassHelpers.h>
 
 #include <DinrusX/DinrusXAct/DinrusAction.h>
 #include <DinrusX/DinrusXAct/ActionGame.h>

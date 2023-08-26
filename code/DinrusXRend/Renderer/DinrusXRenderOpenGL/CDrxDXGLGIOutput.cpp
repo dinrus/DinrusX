@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   CDrxDXGLGIOutput.cpp
@@ -13,7 +13,7 @@
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/CDrxDXGLGIOutput.hpp>
 #include <DinrusX/DinrusXRend/Implementation/GLDevice.hpp>
-#include <Core/String/UnicodeFunctions.h>
+#include <DinrusX/CoreX/String/UnicodeFunctions.h>
 
 CDrxDXGLGIOutput::CDrxDXGLGIOutput(NDrxOpenGL::SOutput* pGLOutput)
 	: m_spGLOutput(pGLOutput)

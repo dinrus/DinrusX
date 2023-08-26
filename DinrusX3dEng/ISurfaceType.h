@@ -4,8 +4,8 @@
 //  File name:   ISurfaceType.h
 //  Version:     v1.00
 //  Created:     30/9/2004 by Timur.
-//  Compilers:   Visual Studio.NET 2003
-//  Описание: Defines interfaces to access Surface Types.
+//  Компиляторы:   mingw-w64-clang-x86_64
+//  Описание:   Defines interfaces to access Surface Types.
 // -------------------------------------------------------------------------
 //  History:
 //

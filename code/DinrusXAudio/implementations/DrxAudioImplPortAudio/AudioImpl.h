@@ -1,9 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
 #include <DinrusX/DinrusXAudio/ATLEntities.h>
-#include <IAudioImpl.h>
+#include <DinrusX/DinrusXAudio/IAudioImpl.h>
+#include "AudioObject.h"
 
 namespace DrxAudio
 {
@@ -11,7 +12,7 @@ namespace Impl
 {
 namespace PortAudio
 {
-class CObject;
+//class CObject;
 
 class CImpl final : public IImpl
 {

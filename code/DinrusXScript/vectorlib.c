@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 
 #ifdef __cplusplus
 extern "C" {
 #endif //__cplusplus
 
-#include <lua.h>
-#include <lauxlib.h>
+#include <plugin/lua/lua.h>
+#include <plugin/lua/lauxlib.h>
 
 #ifdef __cplusplus
 } //extern "C" {
@@ -32,7 +32,7 @@ float *newvector(lua_State *L)
 	else{
 		v[0]=v[1]=v[2]=0.0f;
 	}
-	lua_getref(L,g_vectorMetatable);
+	luaL_ref(L,g_vectorMetatable);
 	lua_setmetatable(L,-2);
 	return v;
 }
@@ -277,7 +277,7 @@ LUALIB_API int vl_initvectorlib(lua_State *L)
 	vl_SetEventFunction( L,"__pow",vector_pow,nTable );
 	vl_SetEventFunction( L,"__unm",vector_unm,nTable );
 	
-	g_vectorMetatable = lua_ref(L,nTable); // pop table
+	g_vectorMetatable = luaL_ref(L,nTable); // pop table
 	return 1;
 }
 

@@ -4,7 +4,7 @@
 //  File name:   IMFXEffect.h
 //  Version:     v1.00
 //  Created:     28/11/2006 by JohnN/AlexL
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Virtual base class for all derived effects
 // -------------------------------------------------------------------------
 //  History:

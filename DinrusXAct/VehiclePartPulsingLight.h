@@ -4,7 +4,7 @@
 //  File name:   VehiclePartPulsingLight.h
 //  Version:     v1.00
 //  Created:     03/14/2011
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: A vehicle light which pulses over time
 // -------------------------------------------------------------------------
 //  History:

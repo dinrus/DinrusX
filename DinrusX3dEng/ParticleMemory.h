@@ -4,7 +4,7 @@
 //  File name:   ParticleMemory.h
 //  Version:     v1.00
 //  Created:     18/03/2010 by Corey Spink
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: All the particle system's specific memory needs
 // -------------------------------------------------------------------------
 //  History:

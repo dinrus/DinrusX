@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2002.
+//  Разработка (C), Dinrus Studios, 2002.
 // -------------------------------------------------------------------------
 //  File name:   AnimSaver.h
 //  Version:     v1.00
 //  Created:     27/9/2007 by Norbert
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: 
 // -------------------------------------------------------------------------
 //  History:
@@ -17,8 +17,8 @@
 #define __AnimSaver_h__
 #pragma once
 
-#include <Core/String/DrxPath.h>
-#include <Core/DrxTypeInfo.h>
+#include <DinrusX/CoreX/String/DrxPath.h>
+#include <DinrusX/CoreX/DrxTypeInfo.h>
 #include "../DinrusX/DinrusX3dEng/CGF/ChunkFile.h"
 #include <DinrusX/DinrusX3dEng/CGF/CGFContent.h>
 #include "../CGA/Controller.h"

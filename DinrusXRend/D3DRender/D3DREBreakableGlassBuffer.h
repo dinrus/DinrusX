@@ -4,7 +4,7 @@
 #define _CRE_BREAKABLE_GLASS_BUFFER_
 #pragma once
 
-#include <DinrusX/CoreX/Renderer/RenderElements/CREBreakableGlassConfig.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREBreakableGlassConfig.h>
 
 //==================================================================================================
 // Name: CREBreakableGlassBuffer

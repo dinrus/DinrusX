@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   FlowPrefabNodes.cpp
 //  Version:     v1.00
 //  Created:     11/6/2012 by Dean Claassen
-//  Compilers:   Visual Studio.NET 2010
+//  Компиляторы:   mingw-w64-clang-x86_64 2010
 //  Описание: Prefab flownode functionality
 // -------------------------------------------------------------------------
 //  History:

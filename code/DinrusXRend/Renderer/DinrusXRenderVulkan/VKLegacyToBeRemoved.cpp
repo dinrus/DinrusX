@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 // Functions that should be removed, but are required pending refactoring.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>

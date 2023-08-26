@@ -1,15 +1,15 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
-#include <Core/Math/Drx_Math.h>
+#include <DinrusX/CoreX/Math/Drx_Math.h>
 #include "PixelFormats.h"     // CPixelFormats
 #include "IConfig.h"          // IConfig
 #include "ConvertContext.h"   // ConvertContext
 #include "ICfgFile.h"         // ICfgFile
 #include "IRCLog.h"           // IRCLog
 #include "StringHelpers.h"    // Split()
-#include <Core/String/StringUtils.h>      // drx_strcpy()
+#include <DinrusX/CoreX/String/StringUtils.h>      // drx_strcpy()
 #include "Util.h"             // getMax()
 #include "PixelFormats.h"     // CPixelFormats
 #include "ImagePreview.h"     // EPreviewMode

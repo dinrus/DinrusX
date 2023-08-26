@@ -1,8 +1,8 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
-#include <DinrusXAnimation/DrxCharAnimationParams.h>
+#include <DinrusX/DinrusXAnimation/DrxCharAnimationParams.h>
 #include "Controller.h"
 #include "AnimationInfoLoader.h"
 #include "../../../DrxXML/IXMLSerializer.h"

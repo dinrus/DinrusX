@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    DevBuffer.cpp : Generic device Buffer management
@@ -8,8 +8,8 @@
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <numeric>
 #include <DinrusXSys/Profilers/IStatoscope.h>
-#include <Core/BitFiddling.h> // IntegerLog2_RoundUp
-#include <Core/Memory/IMemory.h>
+#include <DinrusX/CoreX/BitFiddling.h> // IntegerLog2_RoundUp
+#include <DinrusX/CoreX/Memory/IMemory.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 
 DrxCriticalSection CGraphicsDeviceConstantBuffer::s_accessLock;

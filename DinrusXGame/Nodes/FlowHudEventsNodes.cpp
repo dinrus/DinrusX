@@ -4,7 +4,7 @@
 //  File name:   FlowHudEventsNodes.cpp
 //  Version:     v1.00
 //  Created:     August 8th 2013 by Michiel Meesters.
-//  Compilers:   Visual Studio.NET 2012
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Description: 
 // -------------------------------------------------------------------------
 //  History:

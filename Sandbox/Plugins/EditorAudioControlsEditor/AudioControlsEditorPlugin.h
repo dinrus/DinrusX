@@ -12,7 +12,7 @@
 #include <QStandardItem>
 
 struct IAudioProxy;
-class CImplementationUpr;
+class CImplementationManager;
 
 //------------------------------------------------------------------
 class CAudioControlsEditorPlugin : public IPlugin, public ISystemEventListener
@@ -33,7 +33,7 @@ public:
 	static void                     ReloadScopes();
 	static ACE::CATLControlsModel*  GetATLModel();
 	static ACE::QATLTreeModel*      GetControlsTree();
-	static CImplementationUpr*  GetImplementationManger();
+	static CImplementationManager*  GetImplementationManger();
 	static ACE::IAudioSystemEditor* GetAudioSystemEditorImpl();
 	static void                     ExecuteTrigger(const string& sTriggerName);
 	static void                     StopTriggerExecution();
@@ -50,5 +50,5 @@ private:
 	static IAudioProxy*           ms_pIAudioProxy;
 	static AudioControlId         ms_nAudioTriggerID;
 
-	static CImplementationUpr ms_implementationUpr;
+	static CImplementationManager ms_implementationManager;
 };

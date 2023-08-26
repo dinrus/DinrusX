@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "stdafx.h"
 
 #pragma warning(disable: 4266) // 'function' : no override available for virtual member function from base 'type'; function is hidden
 #pragma warning(disable: 4264) // 'virtual_function' : no override available for virtual member function from base 'class'; function is hidden
 
-#include <Core/Math/Drx_Geo.h>
-#include <Core/Math/Drx_Math.h>
+#include <DinrusX/CoreX/Math/Drx_Geo.h>
+#include <DinrusX/CoreX/Math/Drx_Math.h>
 #include <DinrusX/CoreX/Renderer/VertexFormats.h>
 #include <DinrusX/DinrusX3dEng/IIndexedMesh.h>
 

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 //////////////////////////////////////////////////////////////////////
 //
@@ -22,7 +22,7 @@
 #include "ControllerPQLog.h"
 
 #include <DinrusXSys/IStreamEngine.h>
-#include <Core/String/NameCRCHelper.h>
+#include <DinrusX/CoreX/String/NameCRCHelper.h>
 #include "Util.h"
 
 

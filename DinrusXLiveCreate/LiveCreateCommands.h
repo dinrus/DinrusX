@@ -11,12 +11,12 @@
 	#include <DinrusX/DinrusXNetwork/IServiceNetwork.h>
 	#include <DinrusX/DinrusXNetwork/IRemoteCommand.h>
 	#include <DinrusX/CoreX/Game/IGameFramework.h>
-	#include "IViewSystem.h"
+	#include <DinrusX/DinrusXLiveCreate/IViewSystem.h>
 	#include <DinrusX/DinrusXEntity/IEntitySystem.h>
 	#include <DinrusX/DinrusXAct/IActorSystem.h>
-	#include "IGameRulesSystem.h"
+	#include <DinrusX/DinrusXLiveCreate/IGameRulesSystem.h>
 	#include <DinrusX/DinrusXAct/ILevelSystem.h>
-	#include "LiveCreateHost.h"
+	#include <DinrusX/DinrusXLiveCreate/LiveCreateHost.h>
 
 //------------------------------------------------------------------------------------
 

@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   DrxSteamReward.cpp
 //  Version:     v1.00
 //  Created:     21/01/2013 by MichielM.
-//  Compilers:   Visual Studio.NET 2010
+//  Компиляторы:   mingw-w64-clang-x86_64 2010
 //  Описание: Handles reward/achievements for the Steam API
 // -------------------------------------------------------------------------
 //  History:

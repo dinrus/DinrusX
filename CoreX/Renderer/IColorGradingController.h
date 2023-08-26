@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef _I_COLOR_GRADING_CONTROLLER_H_
 #define _I_COLOR_GRADING_CONTROLLER_H_

@@ -1,8 +1,8 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/RendElement.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREFarTreeSprites.h>
+#include <DinrusX/CoreX/Renderer/RendElements/RendElement.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREFarTreeSprites.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 
 void CREFarTreeSprites::mfPrepare(bool bCheckOverflow)

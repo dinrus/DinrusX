@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // ResourceCompilerPC.cpp : Defines the entry point for the DLL application.
 //
 
 #include "stdafx.h"
-#include <Core/Assert/DrxAssert_impl.h>
+#include <DinrusX/CoreX/Assert/DrxAssert_impl.h>
 #include "StatCGFCompiler.h"
 #include "CharacterCompiler.h"
 #include "ChunkCompiler.h"
@@ -15,7 +15,7 @@
 #include "LuaCompiler.h"
 #include "../../DrxXML/IDrxXML.h"
 
-#include <Core/Platform/DrxWindows.h>   // HANDLE
+#include <DinrusX/CoreX/Platform/DrxWindows.h>   // HANDLE
 
 #include "ResourceCompilerPC.h"
 
@@ -170,6 +170,6 @@ void __stdcall RegisterConverters(IResourceCompiler* const pRC)
 		"Example: /drxasset=source,mytexture.tif");
 }
 
-#include <Core/Common_TypeInfo.h>
+#include <DinrusX/CoreX/Common_TypeInfo.h>
 #include <DinrusX/DinrusX3dEng/IIndexedMesh_info.h>
 #include <DinrusX/DinrusX3dEng/CGF/CGFContent_info.h>

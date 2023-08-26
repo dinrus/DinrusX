@@ -1,5 +1,5 @@
 
-package com.crytek.cryengine;
+package com.Dinrus.cryengine;
 
 import org.libsdl.app.SDLActivity;
 

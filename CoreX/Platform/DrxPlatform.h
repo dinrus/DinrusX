@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   DrxPlatform.h
 //  Version:     v1.00
 //  Created:     31/01/2013 by Christopher Bolte.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Interface for the platform specific function libraries
 //               Include this file instead of windows.h and similar platform specific header files
 // -------------------------------------------------------------------------

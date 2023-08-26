@@ -19,5 +19,6 @@ file
 	SerializationHelper.h,
 	StackGuard.h,
 	StdAfx.h,
-	SurfaceTypes.h;
+	SurfaceTypes.h,	
+	end readonly separator;
 

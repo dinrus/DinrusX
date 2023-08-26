@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. ÐÍÖÏ Äèíðóñ.
+// Ð Ð°Ð·Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ° 2018-2023 DinrusPro / Dinrus Group. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
 /*************************************************************************
  -------------------------------------------------------------------------
@@ -7,7 +7,7 @@
   
  -------------------------------------------------------------------------
   History:
-  - 27:10:2004   11:26 : Created by Márcio Martins
+  - 27:10:2004   11:26 : Created by Mï¿½rcio Martins
 
 *************************************************************************/
 #include <DinrusX/DinrusXGame/StdAfx.h>
@@ -49,7 +49,7 @@
 #include <DinrusX/DinrusXAct/IVehicleSystem.h>
 
 
-#pragma warning(disable: 4355)	// ´this´ used in base member initializer list
+#pragma warning(disable: 4355)	// ï¿½thisï¿½ used in base member initializer list
 
 #if defined(USER_alexll)
 #define ITEM_DEBUG_MEMALLOC

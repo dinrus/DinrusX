@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // Note: The utilities in this file should typically not be used directly,
 // consider including UnicodeFunctions.h or UnicodeIterator.h instead.

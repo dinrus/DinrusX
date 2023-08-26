@@ -2,8 +2,8 @@
 
 #pragma once
 
-#include "IReflection.h"
-#include "Core/Extension/DrxGUID.h"
+#include <DinrusX/DinrusXReflection/IReflection.h>
+#include <DinrusX/CoreX/Extension/DrxGUID.h>
 
 #include <unordered_map>
 #include <vector>

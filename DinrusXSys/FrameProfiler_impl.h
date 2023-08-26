@@ -4,7 +4,7 @@
 //  File name:   FrameProfiler_impl.pc.h
 //  Version:     v1.00
 //  Created:     11/12/2002 by Christopher Bolte.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Platform Profiling Marker Implementation, dispatches to the correct header file
 // -------------------------------------------------------------------------
 //  History:

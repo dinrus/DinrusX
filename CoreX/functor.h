@@ -1,7 +1,7 @@
 // Modified by Timur Davidenko...
 
 //**************** callback.hpp **********************
-// Copyright 1994 Rich Hickey
+// Разработка 1994 Rich Hickey
 /* Permission to use, copy, modify, distribute and sell this software
  * for any purpose is hereby granted without fee,
  * provided that the above copyright notice appear in all copies and

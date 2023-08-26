@@ -4,7 +4,7 @@
 //  File name:   ParticleFixedSizeElementPool.h
 //  Version:     v1.00
 //  Created:     15/03/2010 by Corey.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: A fragmentation-free allocator from a fixed-size pool and which
 //							 only allocates elements of the same size.
 // -------------------------------------------------------------------------

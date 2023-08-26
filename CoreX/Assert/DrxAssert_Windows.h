@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 #if defined(USE_DRX_ASSERT) && DRX_PLATFORM_WINDOWS
@@ -252,7 +252,7 @@ void DrxAssertTrace(const char* _pszFormat, ...)
 
 //-----------------------------------------------------------------------------------------------------
 
-static const char* gs_strRegSubKey = "Software\\Dinrus\\AssertWindow";
+static const char* gs_strRegSubKey = "Software\\DinrusX\\AssertWindow";
 static const char* gs_strRegXValue = "AssertInfoX";
 static const char* gs_strRegYValue = "AssertInfoY";
 
@@ -416,6 +416,8 @@ bool DrxAssert(const char* _pszCondition, const char* _pszFile, unsigned int _ui
 
 		switch (assertInfo.btnChosen)
 		{
+		case SDrxAssertInfo::BUTTON_CONTINUE:
+			break;
 		case SDrxAssertInfo::BUTTON_IGNORE:
 			*_pbIgnore = true;
 			break;

@@ -4,7 +4,7 @@
 //  File name:   TimeOfDayScheduler.h
 //  Version:     v1.00
 //  Created:     27/02/2007 by AlexL
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: TimeOfDayScheduler
 // -------------------------------------------------------------------------
 //  History:

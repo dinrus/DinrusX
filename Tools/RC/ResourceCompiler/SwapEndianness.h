@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  DinrusX Source File.
-//  Copyright (C), Dinrus.
+//  Разработка (C), Dinrus.
 // -------------------------------------------------------------------------
 //  File name:   SwapEndianness.h
 //  Version:     v1.00
 //  Created:     08/01/2008 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: 
 // -------------------------------------------------------------------------
 //  History:

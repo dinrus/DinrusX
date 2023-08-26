@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  Created:     04/05/2015 by Filipe amim
@@ -502,7 +502,7 @@ void CFeatureRenderRibbon::CullRibbonAreas(const CParticleComponentRuntime& runt
 		// Estimate ribbon area by sampling first, last, and mid points
 		const SRibbon ribbon = ribbons[ribbonId];
 
-		uint rIds[3] = 
+		uint rIds[3] =
 		{
 			sortEntries[ribbon.m_firstIdx],
 			sortEntries[(ribbon.m_firstIdx + ribbon.m_lastIdx) / 2],

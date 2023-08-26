@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
-#include <DinrusX/DinrusXAudio/StdAfx.h>
-#include <DinrusX/DinrusXAudio/AudioImplCVars.h>
+#include "stdafx.h"
+#include "AudioImplCVars.h"
 #include <DinrusX/DinrusXSys/IConsole.h>
 
 namespace DrxAudio

@@ -1,4 +1,4 @@
-// Copyright 2001-2016 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/D3DRender/DX11/DX11Device.hpp>

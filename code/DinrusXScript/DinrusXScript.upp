@@ -1,13 +1,13 @@
 noblitz;
 
 uses
-	DinrusX/DinrusXScriptSys;
+	DinrusX/DinrusXScript,
+	plugin/lua;
 
 file
 	DinrusXScriptSys.rc,
 	DrxScriptSystem.cpp,
 	FunctionHandler.cpp,
-	LuaRemoteDebug.cpp,
 	ScriptBind_Movie.cpp,
 	ScriptBind_Particle.cpp,
 	ScriptBind_Physics.cpp,
@@ -20,5 +20,6 @@ file
 	ScriptTimerMgr.cpp,
 	StdAfx.cpp,
 	SurfaceTypes.cpp,
-	vectorlib.c;
+	vectorlib.c,
+	end readonly separator;
 

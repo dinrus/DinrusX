@@ -1,0 +1,22 @@
+file
+	Any.h,
+	DescExtension.h,
+	DrxReflection.h,
+	Function.h,
+	IDescExtension.h,
+	IFunctionDesc.h,
+	IObject.h,
+	IReflection.h,
+	ITypeDesc.h,
+	IVariableDesc.h,
+	ReflectedFunctionDesc.h,
+	ReflectedTypeDesc.h,
+	ReflectedVariableDesc.h,
+	ReflectionRegistry.h,
+	resource.h,
+	StdAfx.h,
+	SystemTypeRegistry.h,
+	SystemTypeRegistry_impl.inl,
+	TypeRegistrar.h,
+	TypeRegistrar_impl.inl;
+

@@ -3,7 +3,8 @@ noblitz;
 uses
 	DinrusX/3rdParty/TangentBasisComputation/mikkelsen,
 	DinrusX/DinrusX3dEng,
-	DinrusX/DinrusXAnimation;
+	DinrusX/DinrusXAnimation,
+	DinrusX/CoreX;
 
 options(CLANG) "-msse3 -ffast-math";
 

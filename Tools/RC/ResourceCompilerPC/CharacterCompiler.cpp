@@ -1,20 +1,20 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File.
-//  Copyright (C), Dinrus Studios, 2002.
+//  Разработка (C), Dinrus Studios, 2002.
 // -------------------------------------------------------------------------
 //  File name:   StatCGFCompiler.cpp
 //  Version:     v1.00
 //  Created:     5/11/2002 by Vladimir Kajalin
-//  Compilers:   Visual Studio.NET
-//  Описание: 
+//  Компиляторы:   mingw-w64-clang-x86_64
+//  Описание:
 // -------------------------------------------------------------------------
 //  History:
 //
 ////////////////////////////////////////////////////////////////////////////
 
 #include "StdAfx.h"
-#include <Core/Math/Drx_Color.h>
+#include <DinrusX/CoreX/Math/Drx_Color.h>
 #include "ConvertContext.h"
 #include "CharacterCompiler.h"
 #include "IConfig.h"
@@ -32,7 +32,7 @@
 #include "StringHelpers.h"
 #include "FileUtil.h"
 #include "UpToDateFileHelpers.h"
-#include <DinrusXAnimation/IAttachment.h>
+#include <DinrusX/DinrusXAnimation/IAttachment.h>
 #include "CGF\CGFNodeMerger.h"
 #include "RcFile.h"
 #include "../DinrusX/DinrusXAnimation/AttachmentVClothPreProcess.h"
@@ -85,7 +85,7 @@ struct IntMeshCollisionInfo
 		: m_iBoneId(-1)
 	{
 		// This didn't help much.
-		// The BBs are reset to opposite infinities, 
+		// The BBs are reset to opposite infinities,
 		// but never clamped/grown by any member points.
 		m_aABB.min.zero();
 		m_aABB.max.zero();
@@ -709,7 +709,7 @@ bool CharacterCompiler::ProcessInternal(CLoaderCGF* cgfLoader, CContentCGF* pCGF
 
 	if (pCContentCGF)
 	{
-		// Only store 
+		// Only store
 		cgfSaver.SaveExportFlags(bNeedEndianSwap);
 	}
 
@@ -1579,7 +1579,7 @@ void CharacterCompiler::OffsetUVs(CNodeCGF * pSubSetNode, XmlNodeRef material, X
 
 bool CharacterCompiler::MergeSubsets(const CombineMap& combinemap, std::vector<SMeshSubset> * subsets, std::vector<CNodeCGF*> * merge_nodes, CSkinningInfo * pDstSkinningInfo, const std::vector<CSkinningInfo*> & skinning)
 {
-	//remove merged subsets and reorganise the mergenode list 
+	//remove merged subsets and reorganise the mergenode list
 	std::vector<CNodeCGF*> newNodeOrder;
 	std::vector<SMeshSubset> newSubSets;
 
@@ -2014,7 +2014,7 @@ bool CharacterCompiler::CreateOptimisedMaterial(const char * filename, const std
 	if (!submats)
 		return false;
 
-	//go through each material in matrial list 
+	//go through each material in matrial list
 	for (std::vector<XmlNodeRef>::const_iterator item = materials.cbegin(), end = materials.cend(); item != end; ++item)
 	{
 		submats->addChild((*item));

@@ -8,7 +8,7 @@
 #include "AudioControlsEditorPlugin.h"
 #include "IEditor.h"
 #include "QtUtil.h"
-#include "ImplementationUpr.h"
+#include "ImplementationManager.h"
 #include "AudioSystemPanel.h"
 #include "AudioSystemModel.h"
 #include "QConnectionsModel.h"

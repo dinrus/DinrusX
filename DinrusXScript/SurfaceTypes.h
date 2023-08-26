@@ -4,7 +4,7 @@
 //  File name:   SurfaceTypes.h
 //  Version:     v1.00
 //  Created:     30/9/2004 by Timur.
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

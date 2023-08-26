@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. ÐÍÖÏ Äèíðóñ.
+// Ð Ð°Ð·Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ° 2018-2023 DinrusPro / Dinrus Group. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
 #include <DinrusX/DinrusXGame/StdAfx.h>
 #include <DinrusX/DinrusXGame/PlayerRotation.h>
@@ -1095,7 +1095,7 @@ void CPlayerRotation::ProcessLeanAndPeek( const SActorFrameMovementParams& movem
 		}
 	}
 
-	// TODO(Márcio): Maybe do some checks here!
+	// TODO(Mï¿½rcio): Maybe do some checks here!
 	m_peekOverAmount = movement.desiredPeekOver;
 }
 

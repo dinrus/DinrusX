@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
-#include <ATLEntityData.h>
-#include <portaudio.h>
+#include <DinrusX/DinrusXAudio/ATLEntityData.h>
+#include <DinrusX/3rdParty/portaudio/portaudio.h>
 
 namespace DrxAudio
 {

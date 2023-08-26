@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXScript/StdAfx.h>
 #include <DinrusX/DinrusXScript/ScriptSystem.h>
@@ -18,7 +18,7 @@ class CEngineModule_DinrusXScriptSys : public IScriptSystemEngineModule
 		DRXINTERFACE_ADD(IScriptSystemEngineModule)
 	DRXINTERFACE_END()
 
-	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DinrusXScriptSys, "EngineModule_DinrusXScriptSys", "d032b164-4978-4f82-a99e-7dc6b6338c5c"_drx_guid)
+	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_DinrusXScriptSys, "EngineModule_DinrusXScript", "d032b164-4978-4f82-a99e-7dc6b6338c5c"_drx_guid)
 
 	virtual ~CEngineModule_DinrusXScriptSys()
 	{

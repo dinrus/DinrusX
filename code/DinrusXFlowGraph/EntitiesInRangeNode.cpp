@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 ////////////////////////////////////////////////////////////////////////////
 //
@@ -6,7 +6,7 @@
 //  File name:   EntitiesInRange.cpp
 //  Version:     v1.00
 //  Created:     Oct 24th 2005 by AlexL
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64 2003
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // Описание: A Group to gather entities and applying actions to all of them at once
 // - 11/09/2015 Created by Dario Sancho

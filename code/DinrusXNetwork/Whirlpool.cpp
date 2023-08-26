@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXNetwork/StdAfx.h>
 #include  <DinrusX/DinrusXNetwork/Whirlpool.h>
@@ -1116,7 +1116,7 @@ bool CWhirlpoolHash::Test()
 }
 
 /**
- * Copyright notice from original code:
+ * Разработка notice from original code:
  *
  * The Whirlpool hashing function.
  *

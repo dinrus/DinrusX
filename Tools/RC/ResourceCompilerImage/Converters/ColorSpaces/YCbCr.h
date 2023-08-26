@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef YCbCr_h
 #define YCbCr_h
 
-#include <Core/Math/Drx_Color.h>
+#include <DinrusX/CoreX/Math/Drx_Color.h>
 
 struct YCbCr
 {

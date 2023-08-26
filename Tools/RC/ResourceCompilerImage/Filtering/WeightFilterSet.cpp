@@ -1,11 +1,11 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 #include <assert.h>             // assert()
 #include "weightfilterset.h"    // CWeightFilter
 #include "IRCLog.h"             // RCLog()
 #include "StringHelpers.h"
-#include <Core/String/StringUtils.h>        // drx_strcpy()
+#include <DinrusX/CoreX/String/StringUtils.h>        // drx_strcpy()
 
 
 CWeightFilter::CWeightFilter()

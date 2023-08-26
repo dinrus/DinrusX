@@ -1,22 +1,22 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // This file should only be included Once in DLL module.
 
 #pragma once
 
-#include <Core/Platform/platform.h>
+#include <DinrusX/CoreX/Platform/platform.h>
 
 #if defined(_LIB)
 #	error It is not allowed to have _LIB defined
 #endif
 
-#include <Core/TypeInfo_impl.h>
+#include <DinrusX/CoreX/TypeInfo_impl.h>
 #define DRX_PLATFORM_IMPL_H_FILE 1
-#include <Core/DrxTypeInfo.inl>
+#include <DinrusX/CoreX/DrxTypeInfo.inl>
 #undef DRX_PLATFORM_IMPL_H_FILE
 
 #include <IRCLog.h>
-#include <Core/Math/Random.h>
+#include <DinrusX/CoreX/Math/Random.h>
 
 #if DRX_PLATFORM_WINAPI && defined(DRX_IS_APPLICATION) 
 // This belongs to the ClassFactoryUpr::the() singleton in ClassFactory.h and must only exist in executables, not in DLLs.

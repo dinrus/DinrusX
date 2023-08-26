@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 #pragma once
 
 <DinrusX/CoreX/Lobby/IDrxFriends.h> // <> required for Interfuscator

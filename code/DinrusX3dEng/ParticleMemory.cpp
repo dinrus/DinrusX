@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   ParticleMemory.cpp
 //  Version:     v1.00
 //  Created:     18/03/2010 by Corey Spink
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:    Всё необходимое для памяти системы частиц.
 // -------------------------------------------------------------------------
 //  History:

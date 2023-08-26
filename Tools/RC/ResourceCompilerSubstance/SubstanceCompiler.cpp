@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 #include <assert.h>                         // assert()
@@ -11,26 +11,26 @@
 #include "SubstanceConverter.h"
 #include <commctrl.h>                       // TCITEM
 
-#include <Core/Math/Drx_Math.h>                       // Vec3
-#include <Core/Math/Drx_Color.h>                      // ColorF
+#include <DinrusX/CoreX/Math/Drx_Math.h>                       // Vec3
+#include <DinrusX/CoreX/Math/Drx_Color.h>                      // ColorF
 #include "IResCompiler.h"
-#include <Core/DrxEndian.h>                         // Endian converting (for ImageExtensionHelper)
+#include <DinrusX/CoreX/DrxEndian.h>                         // Endian converting (for ImageExtensionHelper)
 #include <DinrusX/CoreX/Renderer/ITexture.h>                       // eTEX enum
            // GetBoolParam()
-#include <Core/Containers/DrxPtrArray.h>                    // auto_ptr
+#include <DinrusX/CoreX/Containers/DrxPtrArray.h>                    // auto_ptr
 #include "Util.h"                           // getMin(), getMax()
 #include "UpToDateFileHelpers.h"
-#include <Core/String/DrxPath.h>                        // PathUtil::
+#include <DinrusX/CoreX/String/DrxPath.h>                        // PathUtil::
 
 #include "SuffixUtil.h"                     // SuffixUtil
 #include <DinrusX/DinrusX3dEng/ImageExtensionHelper.h>         // CImageExtensionHelper
 
 #include "FileUtil.h"                       // GetFileSize()
 
-#include <Core/String/DrxPath.h>
+#include <DinrusX/CoreX/String/DrxPath.h>
 #include "StringHelpers.h"
 
-#include <Core/ToolsHelpers/ResourceCompilerHelper.h>
+#include <DinrusX/CoreX/ToolsHelpers/ResourceCompilerHelper.h>
 
 #include <iterator>
 

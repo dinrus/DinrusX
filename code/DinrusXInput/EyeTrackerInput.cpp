@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 // Описание: EyeTracker for Windows (covering EyeX)
 // - 20/04/2016 Created by Benjamin Peters

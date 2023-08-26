@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXScript/StdAfx.h>
 
@@ -29,9 +29,9 @@
 #pragma warning(push) // Because lua.h touches warning C4996
 extern "C"
 {
-#include <lua.h>
-#include <lualib.h>
-#include <luaconf.h>//<lobject.h>
+#include <plugin/lua/lua.h>
+#include <plugin/lua/lualib.h>
+#include <plugin/lua/lobject.h>
 	LUALIB_API void lua_bitlibopen(lua_State* L);
 }
 #pragma warning(pop)
@@ -42,7 +42,7 @@ extern "C"
 extern HANDLE gDLLHandle;
 #endif
 
-#include <DinrusX/DinrusXScript/LuaRemoteDebug/LuaRemoteDebug.h>
+#include <DinrusX/DinrusXScript/LuaRemoteDebug.h>
 
 // Fine tune this value for optimal performance/memory
 #define PER_FRAME_LUA_GC_STEP        2
@@ -988,7 +988,7 @@ void CScriptSystem::RegisterErrorHandler()
 	if (!m_pErrorHandlerFunc)
 	{
 		lua_pushcfunction(L, CScriptSystem::ErrorHandler);
-		m_pErrorHandlerFunc = (HSCRIPTFUNCTION)(INT_PTR)lua_ref(L, 1);
+		m_pErrorHandlerFunc = (HSCRIPTFUNCTION)(INT_PTR)luaL_ref(L, 1);
 	}
 }
 
@@ -1277,7 +1277,7 @@ bool CScriptSystem::ExecuteBuffer(const char* sBuffer, size_t nSize, const char*
 	{
 		// parse OK?
 		int base = lua_gettop(L);  // function index.
-		lua_getref(L, (int)(INT_PTR)m_pErrorHandlerFunc);
+		luaL_ref(L, (int)(INT_PTR)m_pErrorHandlerFunc);
 		lua_insert(L, base);  // put it under chunk and args
 
 		if (pEnv)
@@ -1319,7 +1319,7 @@ int CScriptSystem::BeginCall(HSCRIPTFUNCTION hFunc)
 	if (!hFunc)
 		return 0;
 
-	lua_getref(L, (int)(INT_PTR)hFunc);
+	luaL_ref(L, (int)(INT_PTR)hFunc);
 	if (!lua_isfunction(L, -1))
 	{
 #if defined(__GNUC__)
@@ -1420,7 +1420,7 @@ HSCRIPTFUNCTION CScriptSystem::GetFunctionPtr(const char* sFuncName)
 		lua_pop(L, 1);
 		return NULL;
 	}
-	func = (HSCRIPTFUNCTION)(INT_PTR)lua_ref(L, 1);
+	func = (HSCRIPTFUNCTION)(INT_PTR)luaL_ref(L, 1);
 
 	return func;
 }
@@ -1445,7 +1445,7 @@ HSCRIPTFUNCTION CScriptSystem::GetFunctionPtr(const char* sTableName, const char
 		lua_pop(L, 1);
 		return FALSE;
 	}
-	func = (HSCRIPTFUNCTION)(INT_PTR)lua_ref(L, 1);
+	func = (HSCRIPTFUNCTION)(INT_PTR)luaL_ref(L, 1);
 	return func;
 }
 
@@ -1479,11 +1479,11 @@ void CScriptSystem::PushAny(const ScriptAnyValue& var)
 			lua_pushnil(L);
 		break;
 	case EScriptAnyType::Function:
-		lua_getref(L, (int)(INT_PTR)var.GetScriptFunction());
+		luaL_ref(L, (int)(INT_PTR)var.GetScriptFunction());
 		assert(lua_type(L, -1) == LUA_TFUNCTION);
 		break;
 	case EScriptAnyType::UserData:
-		lua_getref(L, var.GetUserData().nRef);
+		luaL_ref(L, var.GetUserData().nRef);
 		break;
 	case EScriptAnyType::Vector:
 		PushVec3(var.GetVector());
@@ -1535,7 +1535,7 @@ bool CScriptSystem::ToAny(ScriptAnyValue& var, int index)
 			{
 				// Make reference to function.
 				lua_pushvalue(L, index);
-				var.SetScriptFunction((HSCRIPTFUNCTION)(INT_PTR)lua_ref(L, 1));
+				var.SetScriptFunction((HSCRIPTFUNCTION)(INT_PTR)luaL_ref(L, 1));
 			}
 			break;
 		case LUA_TTHREAD:
@@ -1625,7 +1625,7 @@ bool CScriptSystem::ToAny(ScriptAnyValue& var, int index)
 			{
 				// Make reference to function.
 				lua_pushvalue(L, index);
-				var.SetScriptFunction((HSCRIPTFUNCTION)(INT_PTR)lua_ref(L, 1));
+				var.SetScriptFunction((HSCRIPTFUNCTION)(INT_PTR)luaL_ref(L, 1));
 				res = true;
 			}
 			break;
@@ -1670,7 +1670,7 @@ bool CScriptSystem::EndCallN(int nReturns)
 		return false;
 
 	int base = lua_gettop(L) - m_nTempArg;  // function index.
-	lua_getref(L, (int)(INT_PTR)m_pErrorHandlerFunc);
+	luaL_ref(L, (int)(INT_PTR)m_pErrorHandlerFunc);
 	lua_insert(L, base);  // put it under chunk and args
 
 	//signal(SIGINT, drx_laction);
@@ -1866,9 +1866,9 @@ HSCRIPTFUNCTION CScriptSystem::AddFuncRef(HSCRIPTFUNCTION f)
 	if (f)
 	{
 		int ret;
-		lua_getref(L, (int)(INT_PTR)f);
+		luaL_ref(L, (int)(INT_PTR)f);
 		assert(lua_type(L, -1) == LUA_TFUNCTION);
-		ret = lua_ref(L, 1);
+		ret = luaL_ref(L, 1);
 		if (ret != LUA_REFNIL)
 		{
 			return (HSCRIPTFUNCTION)(EXPAND_PTR)ret;
@@ -1884,11 +1884,11 @@ bool CScriptSystem::CompareFuncRef(HSCRIPTFUNCTION f1, HSCRIPTFUNCTION f2)
 	if (f1 == f2)
 		return true;
 
-	lua_getref(L, (int)(INT_PTR)f1);
+	luaL_ref(L, (int)(INT_PTR)f1);
 	assert(lua_type(L, -1) == LUA_TFUNCTION);
 	const void* f1p = lua_topointer(L, -1);
 	lua_pop(L, 1);
-	lua_getref(L, (int)(INT_PTR)f2);
+	luaL_ref(L, (int)(INT_PTR)f2);
 	assert(lua_type(L, -1) == LUA_TFUNCTION);
 	const void* f2p = lua_topointer(L, -1);
 	lua_pop(L, 1);
@@ -1904,11 +1904,11 @@ void CScriptSystem::ReleaseFunc(HSCRIPTFUNCTION f)
 	if (f)
 	{
 #ifdef _DEBUG
-		lua_getref(L, (int)(INT_PTR)f);
+		luaL_ref(L, (int)(INT_PTR)f);
 		assert(lua_type(L, -1) == LUA_TFUNCTION);
 		lua_pop(L, 1);
 #endif
-		lua_unref(L, (int)(INT_PTR)f);
+		luaL_unref(L, 0, (int)(INT_PTR)f);
 	}
 }
 
@@ -1945,16 +1945,16 @@ ScriptAnyValue CScriptSystem::CloneAny(const ScriptAnyValue& any)
 		}
 		break;
 	case EScriptAnyType::Function:
-		lua_getref(L, (int)(INT_PTR)any.GetScriptFunction());
+		luaL_ref(L, (int)(INT_PTR)any.GetScriptFunction());
 		assert(lua_type(L, -1) == LUA_TFUNCTION);
-		result.SetScriptFunction((HSCRIPTFUNCTION)(EXPAND_PTR)lua_ref(L, 1));
+		result.SetScriptFunction((HSCRIPTFUNCTION)(EXPAND_PTR)luaL_ref(L, 1));
 		break;
 	case EScriptAnyType::UserData:
 		{
 			ScriptUserData ud;
 			ud.ptr = any.GetUserData().ptr;
-			lua_getref(L, any.GetUserData().nRef);
-			ud.nRef = lua_ref(L, 1);
+			luaL_ref(L, any.GetUserData().nRef);
+			ud.nRef = luaL_ref(L, 1);
 			result.SetUserData(ud);
 			break;
 		}
@@ -1987,7 +1987,7 @@ void CScriptSystem::ReleaseAny(const ScriptAnyValue& any)
 		// will be freed on delete
 		break;
 	case EScriptAnyType::UserData:
-		lua_unref(L, any.GetUserData().nRef);
+		luaL_unref(L, 0, any.GetUserData().nRef);
 		break;
 	default:
 		assert(0);
@@ -2217,7 +2217,7 @@ void CScriptSystem::SetEnvironment(HSCRIPTFUNCTION scriptFunction, IScriptTable*
 {
 	CHECK_STACK(L);
 
-	lua_getref(L, (int)(INT_PTR)scriptFunction);
+	luaL_ref(L, (int)(INT_PTR)scriptFunction);
 	if (!lua_isfunction(L, -1))
 	{
 #if defined(__GNUC__)
@@ -2236,7 +2236,7 @@ IScriptTable* CScriptSystem::GetEnvironment(HSCRIPTFUNCTION scriptFunction)
 {
 	CHECK_STACK(L);
 
-	lua_getref(L, (int)(INT_PTR)scriptFunction);
+	luaL_ref(L, (int)(INT_PTR)scriptFunction);
 
 	if (!lua_isfunction(L, -1))
 	{
@@ -2654,7 +2654,7 @@ HSCRIPTFUNCTION CScriptSystem::CompileBuffer(const char* sBuffer, size_t nSize, 
 
 	if (status == 0)
 	{
-		return (HSCRIPTFUNCTION)(INT_PTR)lua_ref(L, 1);
+		return (HSCRIPTFUNCTION)(INT_PTR)luaL_ref(L, 1);
 	}
 	else
 	{

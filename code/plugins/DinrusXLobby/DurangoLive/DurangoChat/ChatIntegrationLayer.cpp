@@ -5,7 +5,7 @@
 //// THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 //// PARTICULAR PURPOSE.
 ////
-//// Copyright (c) Microsoft Corporation. All rights reserved
+//// Разработка (c) Microsoft Corporation. All rights reserved
 
 #include "StdAfx.h"
 

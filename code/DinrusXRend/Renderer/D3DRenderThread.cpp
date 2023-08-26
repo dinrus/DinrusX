@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
@@ -9,7 +9,7 @@
 
 #include <DinrusX/DinrusXRend/D3DREBreakableGlassBuffer.h>
 
-#include <Core/DrxCustomTypes.h>
+#include <DinrusX/CoreX/DrxCustomTypes.h>
 
 #include <DinrusX/DinrusXRend/D3DRender/Gpu/Particles/GpuParticleUpr.h>
 #include <DinrusXSys/VR/IHMDUpr.h>

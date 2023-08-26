@@ -1,11 +1,11 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXFont/StdAfx.h>
 #include <DinrusX/DinrusXFont/FontRenderer.h>
-#include <plugin/FT_fontsys/freetype.h>
-#include <plugin/FT_fontsys/ftoutln.h>
-#include <plugin/FT_fontsys/ftglyph.h>
-#include <plugin/FT_fontsys/ftimage.h>
+#include <plugin/freetype/freetype.h>
+#include <plugin/freetype/ftoutln.h>
+#include <plugin/freetype/ftglyph.h>
+#include <plugin/freetype/ftimage.h>
 
 //-------------------------------------------------------------------------------------------------
 CFontRenderer::CFontRenderer()

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 //////////////////////////////////////////////////////////////////////
 //
@@ -18,7 +18,7 @@
 
 #include "MathHelpers.h"
 
-#include <Core/Platform/DrxWindows.h>   // HMODULE, LoadLibraryA()
+#include <DinrusX/CoreX/Platform/DrxWindows.h>   // HMODULE, LoadLibraryA()
 
 
 class CPhysWorldLoader

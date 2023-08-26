@@ -4,7 +4,7 @@
 //  File name:   FlowPrefabNodes.h
 //  Version:     v1.00
 //  Created:     11/6/2012 by Dean Claassen
-//  Compilers:   Visual Studio.NET 2010
+//  Компиляторы:   mingw-w64-clang-x86_64 2010
 //  Описание: Prefab flownode functionality
 // -------------------------------------------------------------------------
 //  History:

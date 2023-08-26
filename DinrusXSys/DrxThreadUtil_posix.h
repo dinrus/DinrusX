@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 //////////////////////////////////////////////////////////////////////////
 // NOTE: INTERNAL HEADER NOT FOR PUBLIC USE

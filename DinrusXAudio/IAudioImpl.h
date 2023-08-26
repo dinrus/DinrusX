@@ -8,7 +8,7 @@
 
 /**
  * @namespace DrxAudio
- * @brief Most parent audio namespace used throughout the entire engine.
+ * @brief Это пространство имён применяется по всему движку.
  */
 namespace DrxAudio
 {
@@ -16,13 +16,13 @@ using DeviceId = uint8;
 
 /**
  * @namespace DrxAudio::Impl
- * @brief Sub-namespace of the DrxAudio namespace used by audio middleware implementations.
+ * @brief Подпространство имён, используемое в реализациях middleware.
  */
 namespace Impl
 {
 /**
  * @struct IImpl
- * @brief interface that exposes audio functionality to an audio middleware implementation
+ * @brief Интерфейс, предоставляющий функционал аудиосистемы реализациям middleware.
  */
 struct IImpl
 {
@@ -31,15 +31,16 @@ struct IImpl
 	/** @endcond */
 
 	/**
-	 * Is called at roughly the same rate as the external thread and a minimum rate if the external thread falls below a given threshold.
+	 * Вызывается с такой же частотой, что и внешняя нить, и с минимальной частотой,
+	 * если внешняя нить падает ниже указанного порога.
 	 * @return void
 	 */
 	virtual void Update() = 0;
 
 	/**
-	 * Initialize all internal components and the audio middleware.
-	 * @param objectPoolSize - Number of objects to preallocate storage for.
-	 * @param eventPoolSize - Number of events to preallocate storage for.
+	 * Инициализует все внутренние компоненты и аудио middleware.
+	 * @param objectPoolSize - Число объектов, которым предварительно выделяется память.
+	 * @param eventPoolSize - Число событий, которым предварительно выделяется память.
 	 * @return ERequestStatus::Success if the initialization was successful, ERequestStatus::Failure otherwise.
 	 * @see ShutDown
 	 */

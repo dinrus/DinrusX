@@ -32,7 +32,7 @@ class CCore : public IDrxSchematycCore, public ISystemEventListener
 	DRXINTERFACE_ADD(IDrxSchematycCore)
 	DRXINTERFACE_END()
 
-	DRXGENERATE_SINGLETONCLASS_GUID(CCore, "EngineModule_SchematycCore", "96d98d98-35aa-4fb6-830b-53dbfe71908d"_drx_guid)
+	DRXGENERATE_SINGLETONCLASS_GUID(CCore, "EngineModule_SchemaCore", "96d98d98-35aa-4fb6-830b-53dbfe71908d"_drx_guid)
 
 public:
 

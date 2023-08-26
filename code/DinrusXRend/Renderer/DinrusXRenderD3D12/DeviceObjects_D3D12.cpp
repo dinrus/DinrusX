@@ -1,8 +1,8 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <Core/DrxCustomTypes.h>
-#include <Core/BitFiddling.h>
+#include <DinrusX/CoreX/DrxCustomTypes.h>
+#include <DinrusX/CoreX/BitFiddling.h>
 #include <DinrusX/DinrusXRend/D3DRender/DeviceUpr/DeviceObjects.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 #include <DinrusX/DinrusXRend/DeviceResourceSet_D3D12.h>

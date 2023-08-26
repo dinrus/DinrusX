@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "stdafx.h"
 #include "XMLConverter.h"
@@ -12,7 +12,7 @@
 #include "FileUtil.h"
 #include "StringHelpers.h"
 #include "UpToDateFileHelpers.h"
-#include <Core/Platform/DrxWindows.h>   // needed for DbgHelp.h
+#include <DinrusX/CoreX/Platform/DrxWindows.h>   // needed for DbgHelp.h
 #include "DbgHelp.h"
 
 XMLCompiler::XMLCompiler(

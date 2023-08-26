@@ -88,7 +88,7 @@ private:
 		uint32 m_normIndex;
 	};
 
-	struct CBaseIndexOrder : public std::binary_function<CBaseIndex, CBaseIndex, bool>
+	struct CBaseIndexOrder : public std::__binary_function<CBaseIndex, CBaseIndex, bool>
 	{
 		bool operator()(const CBaseIndex& a, const CBaseIndex& b) const;
 	};

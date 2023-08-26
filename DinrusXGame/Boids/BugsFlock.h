@@ -4,7 +4,7 @@
 //  File name:   bugsflock.h
 //  Version:     v1.00
 //  Created:     11/4/2003 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Description: 
 // -------------------------------------------------------------------------
 //  History:

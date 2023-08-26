@@ -29,8 +29,8 @@ set (SourceGroup_Root
 	AudioResourceSelectors.cpp
 	AudioSystemPanel.cpp
 	AudioSystemPanel.h
-	ImplementationUpr.cpp
-	ImplementationUpr.h
+	ImplementationManager.cpp
+	ImplementationManager.h
 	InspectorPanel.cpp
 	InspectorPanel.h
 	StdAfx.cpp
@@ -85,7 +85,7 @@ include_directories( ../EditorCommon )
 custom_enable_QT5()
 set(CMAKE_AUTOMOC_MOC_OPTIONS "-bStdAfx.h")
 
-add_definitions(-DNOT_USE_DRX_MEMORY_MANAGER)
+add_definitions(-DNOT_USE_CRY_MEMORY_MANAGER)
 add_definitions(-DPLUGIN_EXPORTS)
 add_definitions(-DSANDBOX_IMPORTS)
 add_definitions(-DEDITOR_COMMON_IMPORTS)

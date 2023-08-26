@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*
    Handles Orbis Web API. Creates a worker thread to process blocking GET requests, also registers PushEvent listener.

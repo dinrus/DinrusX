@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 //! \cond INTERNAL
 
@@ -329,7 +329,7 @@ public:
 
 protected:
 	//////////////////////////////////////////////////////////////////////////
-	// Double buffered since RT and main/job thread will access it simultaneously. One for RT and one for main/job thread 
+	// Double buffered since RT and main/job thread will access it simultaneously. One for RT and one for main/job thread
 	SInstanceInfo m_II[RT_COMMAND_BUF_COUNT];             //!< Per instance data
 
 public:

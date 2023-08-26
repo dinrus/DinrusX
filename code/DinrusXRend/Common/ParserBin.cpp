@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    ParserBin.cpp : Script parser implementations.
@@ -9,8 +9,8 @@
    =============================================================================*/
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <Core/Memory/BucketAllocatorImpl.h>
-#include <Core/DrxCrc32.h>
+#include <DinrusX/CoreX/Memory/BucketAllocatorImpl.h>
+#include <DinrusX/CoreX/DrxCrc32.h>
 
 char* g_KeyTokens[eT_max];
 TArray<bool> sfxIFDef;

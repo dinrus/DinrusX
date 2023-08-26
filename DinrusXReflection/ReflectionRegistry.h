@@ -8,7 +8,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "ReflectedTypeDesc.h"
+#include <DinrusX/DinrusXReflection/ReflectedTypeDesc.h>
 
 namespace Drx {
 namespace Reflection {

@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 //  Dinrus Engine Source File
-//  Copyright (C) DinrusPro
+//  Разработка (C) DinrusPro
 // -------------------------------------------------------------------------
 //  File name:   ChunkCompiler.cpp
 //  Created:     2010/04/05 by Sergey Sokov
@@ -17,7 +17,7 @@
 #include <DinrusX/DinrusX3dEng/CGF/IChunkFile.h>
 #include "iconfig.h"
 #include "ResourceCompiler.h"
-#include <Core/ToolsHelpers/ResourceCompilerHelper.h>
+#include <DinrusX/CoreX/ToolsHelpers/ResourceCompilerHelper.h>
 #include "StringHelpers.h"
 #include "UpToDateFileHelpers.h"
 

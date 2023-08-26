@@ -1,8 +1,8 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
-#include <Core/DrxCrc32.h>
+#include <DinrusX/CoreX/DrxCrc32.h>
 
 
 namespace SkeletonHelpers

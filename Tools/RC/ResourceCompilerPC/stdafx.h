@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // stdafx.h : include file for standard system include files,
 // or project specific include files that are used frequently, but
@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <Core/Platform/platform.h>
+#include <DinrusX/CoreX/Platform/platform.h>
 
 typedef string tstring;
 
@@ -25,13 +25,13 @@ typedef string tstring;
 
 #include <DinrusXSys/XML/IXml.h>
 
-#include <Core/Math/Drx_Math.h>
-#include <Core/Math/Drx_Geo.h>
+#include <DinrusX/CoreX/Math/Drx_Math.h>
+#include <DinrusX/CoreX/Math/Drx_Geo.h>
 #include <DinrusX/DinrusX3dEng/CGF/DrxHeaders.h>
 #include <DinrusXPhys/primitives.h>
-#include <Core/smartptr.h>
+#include <DinrusX/CoreX/smartptr.h>
 #include <DinrusXPhys/physinterface.h>
-#include <Core/Memory/DrxSizer.h>
+#include <DinrusX/CoreX/Memory/DrxSizer.h>
 
 #include "ResourceCompilerPC.h"
 

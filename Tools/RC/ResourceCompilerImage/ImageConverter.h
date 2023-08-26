@@ -1,9 +1,9 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
 #include "IConverter.h"  // IConverter
-#include <Core/StlUtils.h>    // stl::less_stricmp
+#include <DinrusX/CoreX/StlUtils.h>    // stl::less_stricmp
 
 struct IResourceCompiler;
 

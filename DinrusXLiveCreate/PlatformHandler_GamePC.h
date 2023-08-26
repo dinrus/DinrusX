@@ -7,7 +7,7 @@
 //////////////////////////////////////////////////////////////////////////
 
 #include <DinrusX/DinrusXLiveCreate/ILiveCreateCommon.h>
-#include "Platform_Common/PlatformHandlerBase.h"
+#include <DinrusX/DinrusXLiveCreate/PlatformHandlerBase.h>
 
 #if defined(LIVECREATE_FOR_PC) && !defined(NO_LIVECREATE)
 

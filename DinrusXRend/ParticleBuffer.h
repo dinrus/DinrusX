@@ -3,7 +3,7 @@
 #pragma once
 
 #include <array>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREParticle.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREParticle.h>
 #include <DinrusX/DinrusXRend/D3DRender/DeviceUpr/DeviceObjects.h>
 #include <DinrusX/DinrusXRend/D3DRender/DeviceUpr/D3D11/DeviceSubmissionQueue_D3D11.h> // CSubmissionQueue_DX11
 

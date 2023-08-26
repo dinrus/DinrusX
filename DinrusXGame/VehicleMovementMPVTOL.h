@@ -4,7 +4,7 @@
 //  File name:   VehicleMovementMPVTOL.h
 //  Version:     v1.00
 //  Created:     02/09/2011
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Description: Handles movement of the multiplayer version of the VTOL vehicle
 // -------------------------------------------------------------------------
 //  History:

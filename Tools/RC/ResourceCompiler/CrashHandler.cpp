@@ -6,7 +6,7 @@
 //  File name:   CrashHandler.cpp
 //  Version:     v1.00
 //  Created:     1/10/2002 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Based on debugcallstack.cpp
 // -------------------------------------------------------------------------
 //  History:

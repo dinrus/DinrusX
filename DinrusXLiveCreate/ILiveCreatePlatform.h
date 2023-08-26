@@ -3,7 +3,7 @@
 #ifndef _H_ILIVECREATEPLATFORM_H_
 #define _H_ILIVECREATEPLATFORM_H_
 
-#include "ILiveCreateCommon.h"
+#include <DinrusX/DinrusXLiveCreate/ILiveCreateCommon.h>
 
 namespace LiveCreate
 {

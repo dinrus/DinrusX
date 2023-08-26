@@ -25,7 +25,7 @@ file
 	ClipVolumeUpr.h,
 	CloudBlockerRenderNode.h,
 	CREGeomCache.h,
-	Drx3DEngineBase.h,
+	DinrusX3dEngBase.h,
 	DinrusXDecalInfo.h,
 	DrxHeaders.h,
 	DrxHeaders_info.h,

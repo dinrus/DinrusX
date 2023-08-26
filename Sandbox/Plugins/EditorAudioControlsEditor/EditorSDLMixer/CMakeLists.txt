@@ -40,7 +40,7 @@ include_directories( ../../EditorCommon )
 # Common macro for enable QT5 CMake specific settings
 custom_enable_QT5()
 
-add_definitions(-DNOT_USE_DRX_MEMORY_MANAGER)
+add_definitions(-DNOT_USE_CRY_MEMORY_MANAGER)
 add_definitions(-DPLUGIN_EXPORTS)
 add_definitions(-DSANDBOX_IMPORTS)
 add_definitions(-DEDITOR_COMMON_IMPORTS)

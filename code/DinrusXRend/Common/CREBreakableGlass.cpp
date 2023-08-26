@@ -1,15 +1,15 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // Includes
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREBreakableGlass.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREBreakableGlass.h>
 
 #include <DinrusX/DinrusXRend/RendElements/PolygonMath2D.h>
 #include <DinrusX/DinrusXRend/RendElements/SpatialHashGrid.h>
 
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusX/DinrusX3dEng/IRenderNode.h>
-#include <Core/ParticleSys/IParticles.h>
+#include <DinrusX/CoreX/ParticleSys/IParticles.h>
 #include <DinrusX/CoreX/Renderer/IRenderAuxGeom.h>
 
 // Statics

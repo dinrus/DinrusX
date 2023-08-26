@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    CREMeshImpl.cpp : implementation of OcLeaf Render Element.
@@ -9,8 +9,8 @@
    =============================================================================*/
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <DinrusX/DinrusXRend/RenderElements/CREMeshImpl.h>
-#include <DinrusXAnimation/IDrxAnimation.h>
+#include <DinrusX/DinrusXRend/RendElements/CREMeshImpl.h>
+#include <DinrusX/DinrusXAnimation/IDrxAnimation.h>
 
 #include <DinrusX/DinrusXRend/D3DRender/DriverD3D.h>
 

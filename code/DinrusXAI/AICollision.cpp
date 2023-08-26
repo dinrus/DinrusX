@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXAI/StdAfx.h>
 #include <DinrusX/DinrusXAI/AICollision.h>
@@ -286,7 +286,7 @@ inline bool PointSorterAndrew(const Vec3& lhs, const Vec3& rhs)
 // ConvexHull2D
 // Implements Andrew's algorithm
 //
-// Copyright 2001, softSurfer (www.softsurfer.com)
+// Разработка 2001, softSurfer (www.softsurfer.com)
 // This code may be freely used and modified for any purpose
 // providing that this copyright notice is included with it.
 // SoftSurfer makes no warranty for this code, and cannot be held

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // stdafx.h : include file for standard system include files,
 // or project specific include files that are used frequently, but
@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <Core/Platform/platform.h>
+#include <DinrusX/CoreX/Platform/platform.h>
 
 #include <functional>
 #include <vector>
@@ -15,8 +15,8 @@
 #include <stdio.h>
 #include <tchar.h>
 
-#include <Core/Math/Drx_Math.h>
-#include <Core/Math/Drx_Geo.h>
+#include <DinrusX/CoreX/Math/Drx_Math.h>
+#include <DinrusX/CoreX/Math/Drx_Geo.h>
 
 #include <DinrusXSys/File/DrxFile.h>
 
@@ -27,7 +27,7 @@
 #include <DinrusX/CoreX/Renderer/VertexFormats.h>
 
 #define DRX_SUPPRESS_DRXENGINE_WINDOWS_FUNCTION_RENAMING
-#include <Core/Platform/DrxWindows.h>
+#include <DinrusX/CoreX/Platform/DrxWindows.h>
 
 #include <Alembic/Abc/All.h>
 #include <Alembic/AbcGeom/All.h>

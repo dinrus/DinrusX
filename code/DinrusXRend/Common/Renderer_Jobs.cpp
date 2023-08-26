@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 //
 //	File:Renderer.cpp
@@ -17,9 +17,9 @@
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
 #include <DinrusXMovie/IMovieSystem.h>
 #include <DinrusX/DinrusX3dEng/IIndexedMesh.h>
-#include <Core/BitFiddling.h>                              // IntegerLog2()
+#include <DinrusX/CoreX/BitFiddling.h>                              // IntegerLog2()
 #include <DinrusX/DinrusX3dEng/ImageExtensionHelper.h>                 // CImageExtensionHelper
-#include <Core/ToolsHelpers/ResourceCompilerHelper.h>      // CResourceCompilerHelper
+#include <DinrusX/CoreX/ToolsHelpers/ResourceCompilerHelper.h>      // CResourceCompilerHelper
 
 #include <DinrusX/DinrusXRend/Textures/Image/CImage.h>
 #include <DinrusX/DinrusXRend/Textures/TextureUpr.h>

@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // -------------------------------------------------------------------------
 //  File name:   TimeOfDayScheduler.cpp
 //  Version:     v1.00
 //  Created:     27/02/2007 by AlexL
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: TimeOfDayScheduler
 // -------------------------------------------------------------------------
 //  History:

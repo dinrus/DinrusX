@@ -2,8 +2,8 @@
 
 #pragma once
 
-#include "IReflection.h"
-#include "TypeRegistrar.h"
+#include <DinrusX/DinrusXReflection/IReflection.h>
+#include <DinrusX/DinrusXReflection/TypeRegistrar.h>
 
 namespace Drx {
 namespace Reflection {

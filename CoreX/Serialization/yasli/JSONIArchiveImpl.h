@@ -1,6 +1,6 @@
 /**
  *  yasli - Serialization Library.
- *  Copyright (C) 2007-2013 Evgeny Andreeshchev <eugene.andreeshchev@gmail.com>
+ *  –†–∞–∑—Ä–∞–±–æ—Ç–∫–∞ (C) 2007-2013 Evgeny Andreeshchev <eugene.andreeshchev@gmail.com>
  *                          Alexander Kotliar <alexander.kotliar@gmail.com>
  * 
  *  This code is distributed under the MIT License:
@@ -382,7 +382,7 @@ static const char charTypes[256] = {
 	0 /* 0xAA: */,
 	0 /* 0xAB: */,
 	0 /* 0xAC: */,
-	0 /* 0xAD: ≠*/,
+	0 /* 0xAD: ÔøΩ*/,
 	0 /* 0xAE: */,
 	0 /* 0xAF: */,
 
@@ -405,7 +405,7 @@ static const char charTypes[256] = {
 	0 /* 0xBF: */,
 
 
-	0 /* 0xC0: ê*/,
+	0 /* 0xC0: ÔøΩ*/,
 	0 /* 0xC1: */,
 	0 /* 0xC2: */,
 	0 /* 0xC3: */,
@@ -418,7 +418,7 @@ static const char charTypes[256] = {
 	0 /* 0xCA: */,
 	0 /* 0xCB: */,
 	0 /* 0xCC: */,
-	0 /* 0xCD: ù*/,
+	0 /* 0xCD: ÔøΩ*/,
 	0 /* 0xCE: */,
 	0 /* 0xCF: */,
 
@@ -436,7 +436,7 @@ static const char charTypes[256] = {
 	0 /* 0xDA: */,
 	0 /* 0xDB: */,
 	0 /* 0xDC: */,
-	0 /* 0xDD: ≠*/,
+	0 /* 0xDD: ÔøΩ*/,
 	0 /* 0xDE: */,
 	0 /* 0xDF: */,
 
@@ -460,7 +460,7 @@ static const char charTypes[256] = {
 
 
 	0 /* 0xF0: */,
-	0 /* 0xF1: Å*/,
+	0 /* 0xF1: ÔøΩ*/,
 	0 /* 0xF2: */,
 	0 /* 0xF3: */,
 	0 /* 0xF4: */,
@@ -472,7 +472,7 @@ static const char charTypes[256] = {
 	0 /* 0xFA: */,
 	0 /* 0xFB: */,
 	0 /* 0xFC: */,
-	0 /* 0xFD: ç*/,
+	0 /* 0xFD: ÔøΩ*/,
 	0 /* 0xFE: */,
 	0 /* 0xFF: */
 };

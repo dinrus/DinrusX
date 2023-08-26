@@ -1,11 +1,11 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 #include "SkeletonLoader.h"
 
 #include "../../../DrxXML/IXMLSerializer.h"
 #include "../../../DrxXML/IDrxXML.h"
-#include <Core/DrxCrc32.h>
+#include <DinrusX/CoreX/DrxCrc32.h>
 #include "TempFilePakExtraction.h"
 #include "StringHelpers.h"
 

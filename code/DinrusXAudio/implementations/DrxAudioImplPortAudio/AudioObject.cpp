@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
-#include <DinrusX/DinrusXAudio/StdAfx.h>
-#include <DinrusX/DinrusXAudio/AudioObject.h>
-#include <DinrusX/DinrusXAudio/AudioEvent.h>
-#include <DinrusX/DinrusXAudio/AudioTrigger.h>
-#include <Logger.h>
+#include "stdafx.h"
+#include "AudioObject.h"
+#include "AudioEvent.h"
+#include "AudioTrigger.h"
+#include <DinrusX/DinrusXAudio/Logger.h>
 
 namespace DrxAudio
 {
@@ -77,7 +77,7 @@ ERequestStatus CObject::SetObstructionOcclusion(float const obstruction, float c
 	return ERequestStatus::Success;
 }
 
-//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
 ERequestStatus CObject::ExecuteTrigger(ITrigger const* const pITrigger, IEvent* const pIEvent)
 {
 	ERequestStatus requestResult = ERequestStatus::Failure;

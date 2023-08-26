@@ -1,6 +1,6 @@
 /**
  *  yasli - Serialization Library.
- *  Copyright (C) 2007-2013 Evgeny Andreeshchev <eugene.andreeshchev@gmail.com>
+ *  Разработка (C) 2007-2013 Evgeny Andreeshchev <eugene.andreeshchev@gmail.com>
  *                          Alexander Kotliar <alexander.kotliar@gmail.com>
  *
  *  This code is distributed under the MIT License:
@@ -20,7 +20,7 @@ namespace yasli{
 
 class Archive;
 
-struct LessStrCmp : std::binary_function<const char*, const char*, bool>
+struct LessStrCmp : std::__binary_function<const char*, const char*, bool>
 {
 	bool operator()(const char* l, const char* r) const{
 		return strcmp(l, r) < 0;

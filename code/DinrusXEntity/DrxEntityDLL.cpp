@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXEntity/stdafx.h>
 
@@ -110,7 +110,7 @@ class CEngineModule_EntitySystem : public IEntitySystemEngineModule
 	DRXINTERFACE_ADD(IEntitySystemEngineModule)
 	DRXINTERFACE_END()
 
-	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_EntitySystem, "EngineModule_DinrusXEntitySys", "88565507-2f01-4c03-820c-5a1a9b4d623b"_drx_guid)
+	DRXGENERATE_SINGLETONCLASS_GUID(CEngineModule_EntitySystem, "EngineModule_DinrusXEntity", "88565507-2f01-4c03-820c-5a1a9b4d623b"_drx_guid)
 
 	virtual ~CEngineModule_EntitySystem()
 	{

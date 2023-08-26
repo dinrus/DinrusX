@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
 #include <assert.h>                   // assert()
-#include <Core/Math/DrxHalf.inl>                // DrxHalf
-#include <Core/Math/Drx_Math.h>                 // Vec4
+#include <DinrusX/CoreX/Math/DrxHalf.inl>                // DrxHalf
+#include <DinrusX/CoreX/Math/Drx_Math.h>                 // Vec4
 
 #include "IRCLog.h"                   // IRCLog
 #include "IConfig.h"                  // IConfig

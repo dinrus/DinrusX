@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 #include <assert.h>                         // assert()
@@ -7,7 +7,7 @@
 #include "../ImageObject.h"                 // ImageToProcess
 
 #include "IRCLog.h"                         // IRCLog
-#include <Core/BitFiddling.h>                    // IntegerLog2()
+#include <DinrusX/CoreX/BitFiddling.h>                    // IntegerLog2()
 
 ///////////////////////////////////////////////////////////////////////////////////
 

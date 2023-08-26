@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // Includes
 #include <DinrusX/DinrusXGame/StdAfx.h>
@@ -8,7 +8,7 @@
 #include <DinrusX/DinrusXGame/ItemSystem.h>
 #include <DinrusX/CoreX/BitFiddling.h>
 #include <DinrusX/DinrusXGame/Effects/RenderNodes/IGameRenderNode.h>
-#include <DinrusX/DinrusXGame/Effects/RenderElements/GameRenderElement.h>
+#include <DinrusX/DinrusXGame/Effects/RendElements/GameRenderElement.h>
 #include <DinrusX/DinrusXGame/GameRules.h>
 
 //--------------------------------------------------------------------------------------------------

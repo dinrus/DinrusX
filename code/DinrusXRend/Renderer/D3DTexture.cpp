@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    D3DTexture.cpp : Direct3D specific texture manager implementation.
@@ -11,10 +11,10 @@
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
-#include <Core/String/StringUtils.h>
+#include <DinrusX/CoreX/String/StringUtils.h>
 #include <DinrusX/DinrusX3dEng/ImageExtensionHelper.h>
 #include <DinrusXSys/Scaleform/IFlashPlayer.h>
-#include <Core/BitFiddling.h>    // ConvertBlock3DcToDXT5()
+#include <DinrusX/CoreX/BitFiddling.h>    // ConvertBlock3DcToDXT5()
 #include <DinrusX/DinrusXRend/D3DStereo.h>
 #include <DinrusX/DinrusXRend/PostProcess/PostProcessUtils.h>
 #include <DinrusX/DinrusXRend/D3DPostProcess.h>

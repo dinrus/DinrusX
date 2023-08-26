@@ -1,7 +1,7 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 /*************************************************************************
 Dinrus Source File.
-Copyright (C), Dinrus Studios, 2001-2008.
+Разработка (C), Dinrus Studios, 2001-2008.
 -------------------------------------------------------------------------
 $Id: TextureSplitter.cpp,v 1.0 2008/01/17 15:14:13 AntonKaplanyan Exp wwwrun $
 $DateTime$
@@ -17,11 +17,11 @@ History:
 #include <IConfig.h>
 #include "TextureSplitter.h"
 #include "../../ResourceCompiler/IResCompiler.h"
-#include <Core/BitFiddling.h>
+#include <DinrusX/CoreX/BitFiddling.h>
 #include <DinrusX/DinrusX3dEng/ImageExtensionHelper.h>
 #include <DinrusXSys/IConsole.h>
 
-#include <Core/Platform/DrxWindows.h>
+#include <DinrusX/CoreX/Platform/DrxWindows.h>
 #include <DbgHelp.h>
 
 #include "FileUtil.h"

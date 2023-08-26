@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    Texture.cpp : Common texture manager implementation.
@@ -16,7 +16,7 @@
 #include <DinrusXSys/Scaleform/IFlashUI.h>
 #include <DinrusXSys/File/IResourceUpr.h>
 #include <DinrusX/DinrusX3dEng/I3DEngine.h>
-#include <Core/String/StringUtils.h>                // stristr()
+#include <DinrusX/CoreX/String/StringUtils.h>                // stristr()
 #include <DinrusX/DinrusXRend/TextureStreamPool.h>
 #include <DinrusX/DinrusXRend/TextureHelpers.h>
 #include <DinrusXSys/Scaleform/IUIFramework.h>

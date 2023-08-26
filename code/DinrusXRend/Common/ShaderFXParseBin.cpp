@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*=============================================================================
    ShaderFXParseBin.cpp : implementation of the Shaders parser using FX language.
@@ -9,8 +9,8 @@
    =============================================================================*/
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
-#include <Core/Platform/IPlatformOS.h>
-#include <Core/AlignmentTools.h>
+#include <DinrusX/CoreX/Platform/IPlatformOS.h>
+#include <DinrusX/CoreX/AlignmentTools.h>
 #include <DinrusX/DinrusXRend/Textures/TextureHelpers.h>
 #include <DinrusX/DinrusXRend/DriverD3D.h>
 

@@ -4,7 +4,7 @@
 //  File name:   CGFLoader.h
 //  Version:     v1.00
 //  Created:     6/11/2004 by Timur.
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

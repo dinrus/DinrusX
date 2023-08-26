@@ -1,5 +1,5 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
-// Copyright 2006 DinrusPro
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2006 DinrusPro
 // Created by: Michael Smith
 //---------------------------------------------------------------------------
 #ifndef __XMLCONVERTER_H__

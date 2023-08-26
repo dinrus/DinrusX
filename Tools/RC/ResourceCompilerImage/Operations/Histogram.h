@@ -1,11 +1,11 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #ifndef __HISTOGRAM_H__
 #define __HISTOGRAM_H__
 
 #pragma once
 
-#include <Core/Platform/platform.h>    // uint64
+#include <DinrusX/CoreX/Platform/platform.h>    // uint64
 
 
 template <size_t BIN_COUNT>

@@ -4,7 +4,7 @@
 //  File name:   ScriptBinding.h
 //  Version:     v1.00
 //  Created:     9/7/2004 by Timur.
-//  Compilers:   Visual Studio.NET 2003
+//  Компиляторы:   mingw-w64-clang-x86_64 2003
 //  Описание:
 // -------------------------------------------------------------------------
 //  History:

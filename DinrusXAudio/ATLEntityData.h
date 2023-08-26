@@ -6,13 +6,13 @@
 
 /**
  * @namespace DrxAudio
- * @brief Most parent audio namespace used throughout the entire engine.
+ * @brief самое высокоуровневое пространство имён, используемое по всему движку.
  */
 namespace DrxAudio
 {
 /**
  * @namespace DrxAudio::Impl
- * @brief Sub-namespace of the DrxAudio namespace used by audio middleware implementations.
+ * @brief Подпространство имён DrxAudio, используемое реализациями audio middleware.
  */
 namespace Impl
 {

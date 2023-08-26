@@ -1,10 +1,10 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 #include "PixelFormats.h"           // CPixelFormats
 #include "ImageObject.h"            // ImageObject
 #include <DinrusX/DinrusX3dEng/ImageExtensionHelper.h>
-#include <Core/ToolsHelpers/ResourceCompilerHelper.h> // eRcExitCode_FatalError
+#include <DinrusX/CoreX/ToolsHelpers/ResourceCompilerHelper.h> // eRcExitCode_FatalError
 #include <ddraw.h>                  // DDSCAPS_xxx
 
 // Including the whole DX10-headers isn't necessary, as

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #pragma once
 
@@ -12,7 +12,7 @@
 <DinrusX/CoreX/Platform/DrxAtlMfc.h>
 
 // Notice: we actually need access to the PathUtil namespace with its utility functions, but since CL-1383099, it's broken and
-//         causes a compile error when #including <Core/String/DrxPath.h>.
+//         causes a compile error when #including <DinrusX/CoreX/String/DrxPath.h>.
 //         Reason: since that CL IDrxPak.h now #includes DrxPath.h (and not just vise versa as before), and uses symbols before they had a chance to get declared! -> boom!
 //         Workaround: only #include IDrxPak.h
 <DinrusX/DinrusXSys/File/IDrxPak.h>

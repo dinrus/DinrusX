@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 // stdafx.h : include file for standard system include files,
 // or project specific include files that are used frequently, but
@@ -6,7 +6,7 @@
 //
 
 #pragma once
-#include <Core/Platform/platform.h>
+#include <DinrusX/CoreX/Platform/platform.h>
 
 #include <DinrusXSys/XML/IXml.h>
 
@@ -30,22 +30,22 @@
 #include <tchar.h>
 
 #define DRX_SUPPRESS_DRXENGINE_WINDOWS_FUNCTION_RENAMING
-#include <Core/Platform/DrxWindows.h>
+#include <DinrusX/CoreX/Platform/DrxWindows.h>
 
 //#include <StlDbgAlloc.h>
 // to make smoother transition back from drx to std namespace...
 #define drx std
 #define DRX_AS_STD
 
-#include <Core/smartptr.h>
+#include <DinrusX/CoreX/smartptr.h>
 
 //////////////////////////////////////////////////////////////////////////
 #include "ConvertContext.h"
 
-#include <Core/Math/Drx_Math.h>
+#include <DinrusX/CoreX/Math/Drx_Math.h>
 #include <DinrusXPhys/primitives.h>
 #include <DinrusX/DinrusX3dEng/CGF/DrxHeaders.h>
 #include <DinrusXSys/DrxVersion.h>
 
-#include <Core/StlUtils.h>
-#include <Core/Containers/VectorMap.h>
+#include <DinrusX/CoreX/StlUtils.h>
+#include <DinrusX/CoreX/Containers/VectorMap.h>

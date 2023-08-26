@@ -1,11 +1,11 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/DinrusXRend/StdAfx.h>
 #include <DinrusX/DinrusXRend/RenderView.h>
 #include <DinrusX/DinrusXRend/CompiledRenderObject.h>
 
-#include <Core/Containers/DrxArray.h>
-#include <Core/Math/Drx_Geo.h>
+#include <DinrusX/CoreX/Containers/DrxArray.h>
+#include <DinrusX/CoreX/Math/Drx_Geo.h>
 #include <vector>
 
 namespace renderitems_topological_sort

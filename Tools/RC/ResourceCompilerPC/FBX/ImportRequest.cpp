@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "stdafx.h"
 
@@ -9,11 +9,11 @@
 #include "Plugins/MeshImporter/NodeProperties.h"
 #include "../DinrusX/DinrusX3dEng/CGF/ChunkFile.h"
 
-#include <Core/Serialization/yasli/Archive.h>
-#include <Core/Serialization/yasli/STL.h>
-#include <Core/Serialization/yasli/Enum.h>
-#include <Core/Serialization/yasli/JSONIArchive.h>
-#include <Core/Serialization/yasli/JSONOArchive.h>
+#include <DinrusX/CoreX/Serialization/yasli/Archive.h>
+#include <DinrusX/CoreX/Serialization/yasli/STL.h>
+#include <DinrusX/CoreX/Serialization/yasli/Enum.h>
+#include <DinrusX/CoreX/Serialization/yasli/JSONIArchive.h>
+#include <DinrusX/CoreX/Serialization/yasli/JSONOArchive.h>
 
 #include <numeric> // std::accumulate
 

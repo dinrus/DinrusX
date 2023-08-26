@@ -3,7 +3,7 @@
 #pragma once
 
 #include <DinrusX/CoreX/ParticleSys/IParticlesPfx2.h>
-#include <DinrusX/CoreX/Renderer/RenderElements/CREParticle.h>
+#include <DinrusX/CoreX/Renderer/RendElements/CREParticle.h>
 
 // compile options
 #ifdef _DEBUG

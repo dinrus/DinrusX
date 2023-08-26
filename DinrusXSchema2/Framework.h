@@ -29,13 +29,13 @@ namespace Schematyc2
 			DRXINTERFACE_ADD(CFramework)
 		DRXINTERFACE_END()
 
-		DRXGENERATE_SINGLETONCLASS_GUID(CFramework, "EngineModule_Schematyc2", "{5E7CED55-5C30-44CF-9AD5-A80B025B4800}"_drx_guid)
+		DRXGENERATE_SINGLETONCLASS_GUID(CFramework, "EngineModule_Schema2", "{5E7CED55-5C30-44CF-9AD5-A80B025B4800}"_drx_guid)
 
 		CFramework();
 		~CFramework();
 
 	public:
-		virtual const char* GetName() const override { return "DrxSchematyc2"; }
+		virtual const char* GetName() const override { return "DinrusXSchema2"; }
 		virtual const char* GetCategory() const override { return "DinrusX"; }
 
 		virtual bool Initialize(SSystemGlobalEnvironment& env, const SSystemInitParams& initParams) override;

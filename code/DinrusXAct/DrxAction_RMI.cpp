@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 //
 // EntityRMI-related DinrusAction code.
 // See related: <DrxCommon/DinrusXNetwork/Rmi.h> for user-side IEntityComponent helpers.

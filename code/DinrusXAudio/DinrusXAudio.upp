@@ -1,7 +1,8 @@
 noblitz;
 
 uses
-	DinrusX/DinrusXAudio;
+	DinrusX/DinrusXAudio,
+	DinrusX/code/DinrusXAudio/implementations/DrxAudioImplPortAudio;
 
 link(CLANG) "-lntdll -lDinrusXFont.dll -lDinrusX.dll";
 
@@ -27,5 +28,5 @@ file
 	stdafx.cpp;
 
 mainconfig
-	"DinrusXAudioSys.dll" = "DLL";
+	"DinrusXAudio.dll" = "DLL";
 

@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 /*
 
@@ -464,7 +464,7 @@ void CGameAISystem::InformContentCreatorOfError(string logMessage) const
 					string_replace(callstack, "\n", "%%0A");
 
 					string command = string().Format(
-						"mailto:jonas@crytek.com;mario@crytek.com;marcio@crytek.com"
+						"mailto:jonas@Dinrus.com;mario@Dinrus.com;marcio@Dinrus.com"
 						"?subject=Error in GameAISystem"
 						"&body="
 						"[Auto-generated e-mail]%%0A"

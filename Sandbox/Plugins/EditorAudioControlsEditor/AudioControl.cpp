@@ -8,7 +8,7 @@
 #include <IAudioSystemItem.h>
 #include <ACETypes.h>
 #include "AudioControlsEditorPlugin.h"
-#include "ImplementationUpr.h"
+#include "ImplementationManager.h"
 
 namespace ACE
 {

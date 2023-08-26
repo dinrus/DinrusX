@@ -4,7 +4,7 @@
 //  File name:   objmancullqueue.h
 //  Version:     v1.00
 //  Created:     2/12/2009 by Michael Glueck
-//  Compilers:   Visual Studio.NET
+//  Компиляторы:   mingw-w64-clang-x86_64
 //  Описание: Declaration and entry point for asynchronous obj-culling queue
 // -------------------------------------------------------------------------
 //  History:

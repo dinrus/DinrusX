@@ -1,12 +1,12 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include "StdAfx.h"
 #include <stdio.h>
 #include <assert.h>                   // assert()
 #include <math.h>                     // floorf()
 #include "SummedAreaFilterKernel.h"   // CSummedAreaTableFilterKernel
-#include <Core/Math/Drx_Math.h>                 // gf_PI
-#include <Core/String/StringUtils.h>              // drx_strcpy()
+#include <DinrusX/CoreX/Math/Drx_Math.h>                 // gf_PI
+#include <DinrusX/CoreX/String/StringUtils.h>              // drx_strcpy()
 #include "IRCLog.h"                   // debug messages
 
 

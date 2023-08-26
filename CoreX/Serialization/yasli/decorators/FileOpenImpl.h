@@ -1,4 +1,4 @@
-// Copyright 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
+// Разработка 2018-2023 DinrusPro / Dinrus Group. РНЦП Динрус.
 
 #include <DinrusX/CoreX/Serialization/yasli/decorators/FileOpen.h>
 #include <DinrusX/CoreX/Serialization/yasli/STL.h>
