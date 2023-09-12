@@ -24,6 +24,7 @@
 //    distribution.
 //
 //========================================================================
+#ifndef POSIX
 
 #include "internal.h"
 
@@ -95,3 +96,4 @@ void _glfwPlatformUnlockMutex(_GLFWmutex* mutex)
     LeaveCriticalSection(&mutex->win32.section);
 }
 
+#endif

@@ -24,7 +24,7 @@
 //    distribution.
 //
 //========================================================================
-
+#ifndef POSIX
 #include "internal.h"
 
 #include <stdio.h>
@@ -751,3 +751,4 @@ void _glfwPlatformUpdateGamepadGUID(char* guid)
     }
 }
 
+#endif

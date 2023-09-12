@@ -24,7 +24,7 @@
 //    distribution.
 //
 //========================================================================
-
+#ifndef POSIX
 #include "internal.h"
 
 #include <stdlib.h>
@@ -625,3 +625,4 @@ const char* _glfwPlatformGetVersionString(void)
         ;
 }
 
+#endif

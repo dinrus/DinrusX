@@ -24,7 +24,7 @@
 //    distribution.
 //
 //========================================================================
-
+#ifndef POSIX
 // We don't need all the fancy stuff
 #ifndef NOMINMAX
  #define NOMINMAX
@@ -447,3 +447,4 @@ void _glfwSetVideoModeWin32(_GLFWmonitor* monitor, const GLFWvidmode* desired);
 void _glfwRestoreVideoModeWin32(_GLFWmonitor* monitor);
 void _glfwGetMonitorContentScaleWin32(HMONITOR handle, float* xscale, float* yscale);
 
+#endif

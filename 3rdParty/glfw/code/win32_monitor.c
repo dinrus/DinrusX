@@ -24,6 +24,7 @@
 //    distribution.
 //
 //========================================================================
+#ifndef POSIX
 
 #include "internal.h"
 
@@ -513,3 +514,4 @@ GLFWAPI const char* glfwGetWin32Monitor(GLFWmonitor* handle)
     return monitor->win32.publicDisplayName;
 }
 
+#endif

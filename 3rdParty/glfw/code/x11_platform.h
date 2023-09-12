@@ -149,16 +149,16 @@ typedef VkBool32 (APIENTRY *PFN_vkGetPhysicalDeviceXlibPresentationSupportKHR)(V
 typedef VkResult (APIENTRY *PFN_vkCreateXcbSurfaceKHR)(VkInstance,const VkXcbSurfaceCreateInfoKHR*,const VkAllocationCallbacks*,VkSurfaceKHR*);
 typedef VkBool32 (APIENTRY *PFN_vkGetPhysicalDeviceXcbPresentationSupportKHR)(VkPhysicalDevice,uint32_t,xcb_connection_t*,xcb_visualid_t);
 
-#include <DinrusX/3rdParty/box2d/posix_thread.h>
-#include <DinrusX/3rdParty/box2d/posix_time.h>
-#include <DinrusX/3rdParty/box2d/xkb_unicode.h>
-#include <DinrusX/3rdParty/box2d/glx_context.h>
-#include <DinrusX/3rdParty/box2d/egl_context.h>
-#include <DinrusX/3rdParty/box2d/osmesa_context.h>
+#include "posix_thread.h"
+#include "posix_time.h"
+#include "xkb_unicode.h"
+#include "glx_context.h"
+#include "egl_context.h"
+#include "osmesa_context.h"
 #if defined(__linux__)
-#include <DinrusX/3rdParty/box2d/linux_joystick.h>
+#include "linux_joystick.h"
 #else
-#include <DinrusX/3rdParty/box2d/null_joystick.h>
+#include "null_joystick.h"
 #endif
 
 #define _glfw_dlopen(name) dlopen(name, RTLD_LAZY | RTLD_LOCAL)

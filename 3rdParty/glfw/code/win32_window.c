@@ -24,7 +24,7 @@
 //    distribution.
 //
 //========================================================================
-
+#ifndef POSIX
 #include "internal.h"
 
 #include <limits.h>
@@ -2203,3 +2203,4 @@ GLFWAPI HWND glfwGetWin32Window(GLFWwindow* handle)
     return window->win32.handle;
 }
 
+#endif

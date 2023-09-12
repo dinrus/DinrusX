@@ -82,3 +82,6 @@ file
 	tests\wheel_joint.cpp,
 	tests\wrecking_ball.cpp;
 
+mainconfig
+	"" = "EXE";
+

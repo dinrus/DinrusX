@@ -24,6 +24,7 @@
 //    distribution.
 //
 //========================================================================
+#ifndef POSIX
 
 #include "internal.h"
 
@@ -72,3 +73,4 @@ uint64_t _glfwPlatformGetTimerFrequency(void)
     return _glfw.timer.win32.frequency;
 }
 
+#endif

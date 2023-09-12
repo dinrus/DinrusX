@@ -24,7 +24,7 @@
 //    distribution.
 //
 //========================================================================
-
+#ifndef POSIX
 #include "internal.h"
 
 #include <stdlib.h>
@@ -730,3 +730,4 @@ GLFWAPI HGLRC glfwGetWGLContext(GLFWwindow* handle)
     return window->context.wgl.handle;
 }
 
+#endif
